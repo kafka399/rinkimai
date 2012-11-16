@@ -42,3 +42,19 @@ class KandidatoRezultaiApylinkejeItem(Item):
     nuo_galiojanciu_biuleteniu = Field()
     nuo_rinkeju = Field()
     pass
+
+class KandidatasItem(Item):
+	kandidatas = Field()
+	apygarda  = Field()
+	iskele = Field()
+	saraso_numeris = Field()
+	gimimo_data  = Field()
+	gyvena = Field()
+	tautybe = Field()
+	gimimo_vieta = Field()
+	uzsienio_kalbos = Field()
+	darboviete = Field()
+	pomegiai  = Field()
+	seimynine_padetis = Field()
+	
+	pass
