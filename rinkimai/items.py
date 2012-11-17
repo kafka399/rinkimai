@@ -56,5 +56,5 @@ class KandidatasItem(Item):
 	darboviete = Field()
 	pomegiai  = Field()
 	seimynine_padetis = Field()
-	
+	issilavinimas = Field()	
 	pass
