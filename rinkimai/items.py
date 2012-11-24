@@ -57,4 +57,7 @@ class KandidatasItem(Item):
 	pomegiai  = Field()
 	seimynine_padetis = Field()
 	issilavinimas = Field()	
+	neatlikta_bausme = Field()
+	pripazintas_kaltu = Field()
+	sunkus_nusikaltimas = Field()
 	pass
