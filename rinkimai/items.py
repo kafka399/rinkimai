@@ -25,6 +25,23 @@ class ApylinkeItem(Item):
 
     pass
 
+class DaugiamandatesRezultataiApygardojeItem(Item):
+	apygarda = Field()
+	partija = Field()
+	apylinkese = Field()
+	pastu = Field()
+	nuo_galiojanciu_biuleteniu = Field()
+	pass
+
+class DaugiamandatesRezultataiApylinkejeItem(Item):
+        apygarda = Field()
+	apylinke = Field()
+        partija = Field()
+        apylinkese = Field()
+        pastu = Field()
+        nuo_galiojanciu_biuleteniu = Field()
+        pass
+
 class KandidatoRezultaiApygardojeItem(Item):
 	apygarda = Field()
 	kandidatas = Field()
