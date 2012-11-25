@@ -53,7 +53,7 @@ class KandidatasVienmandateSpider(CrawlSpider):
 		if rez.find('16. Pagrindin')>0:
 			rez = rez[rez.find('16. Pagrindin')+len('16. Pagrindin')+28:]
 			item['darboviete'] = rez[0:rez.find('</b>')]
-		if rez[rez.find('18. Pom')]>0:
+		if rez.find('18. Pom')>0:
 			rez = rez[rez.find('18. Pom')+len('18. Pom')+10:]
 			item['pomegiai'] = rez[0:rez.find('</b>')]
 		if rez.find('19. Šeiminė padėtis')>0:
