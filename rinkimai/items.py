@@ -52,6 +52,7 @@ class KandidatoRezultaiApygardojeItem(Item):
 	pass
 
 class KandidatoRezultaiApylinkejeItem(Item):
+    apygarda = Field()
     apylinke = Field()
     kandidatas = Field()
     balsadezeje = Field()
