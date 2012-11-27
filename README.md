@@ -2,9 +2,9 @@ Seimo rinkimų rezultatai.
 
 **TODO**
 
-   * 2012 daugiamandatės
+   * 2012 daugiamandatės - DONE
    * bendra suvestinė 2012,2008,2004  
-   * 2012, 2008 II turas
+   * 2012, 2008 II turas - DONE
    * 2000
    * 1996
    * pataisyti failų pavadinimus - DONE
