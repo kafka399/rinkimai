@@ -11,7 +11,7 @@ Seimo rinkimų rezultatai.
 
 **Failų aprašymas**
 
-   + viemandate20XX__apylinkeitem.csv - apylinkių aktyvumo suvestinė. Pvz. ["Balsavimo rezultatai rinkimų apylinkėse"][1]
+   + vienmandate20XX__apylinkeitem.csv - apylinkių aktyvumo suvestinė. Pvz. ["Balsavimo rezultatai rinkimų apylinkėse"][1]
    + vienmandate20XX_kandidatorezultaiapygardojeitem.csv - pvz. ["Balsavimo rezultatai apygardoje"][1] 
    + vienmandate20XX_kandidatorezultaiapylinkejeitem.csv - pvz. ["Balsavimo rezultatai rinkimų apylinkėje"][2]
    + kandidatasXXXX_kandidatasitem.csv - aprašymas ["Kandidato biografija"][3]
