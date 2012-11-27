@@ -7,7 +7,7 @@ from rinkimai.items import KandidatoRezultaiApygardojeItem
 import re
 
 class ApylinkeSpider(CrawlSpider):
-        name = "apylinke"
+        name = "vienmandate2012"
         allowed_domains = ["www.vrk.lt"]
 	start_urls = ["http://www.vrk.lt/2012_seimo_rinkimai/output_lt/rezultatai_vienmand_apygardose/rezultatai_vienmand_apygardose1turas.html"]
 	rules =[Rule(SgmlLinkExtractor(allow=['/rezultatai_vienmanate_apygarda'],deny=['output_en']), 'parse_apygarda', follow=True),

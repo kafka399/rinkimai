@@ -8,6 +8,8 @@ Seimo rinkimų rezultatai.
    * 2000
    * 1996
    * pataisyti failų pavadinimus - DONE
+   * kandidatu deklaracijos
+   * išrinkti Seimo nariai
 
 **Failų aprašymas**
 
@@ -25,3 +27,16 @@ Seimo rinkimų rezultatai.
 [3]: http://www.vrk.lt/rinkimai/416_lt/Kandidatai/Kandidatas67066/Kandidato67066Anketa.html
 [4]: http://www.vrk.lt/2012_seimo_rinkimai/output_lt/rezultatai_daugiamand_apygardose/apygardos_rezultatai7213.html
 [5]: http://www.vrk.lt/2012_seimo_rinkimai/output_lt/rezultatai_daugiamand_apygardose/rezultatai_daugiamand_apygardose1turas.html
+
+
+**Žinomos klaidos***
+
+2004_2_apylinkeitem:
+    + 513, 621 eilutes vietoje rinkeju skaiciaus atsiranda procentai. Problema velgi su tom eilutemis, kur rezultatus skaiciavo apygardoje.
+
+2012_apylinkeitem:
+   + 698, 743 tas pats.
+
+2004_apylineitem:
+   + 1062, 589 - rinkeju skaiciaus langelyje procentas.
+   + 499 - negaliojanciu_biuleteniu NA reiksme. Cia ir svetaineje taip raso. Jei nera negaliojanciu biuleteniu, tai nuli reiktu rasyt, o cia tuscia palieka. 
