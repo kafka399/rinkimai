@@ -34,27 +34,49 @@ class KandidatasVienmandateSpider(CrawlSpider):
 		item['gimimo_data'] =hxs.select("//td[@class='bigcell']/table/tr[@class='r1']/td[@class='lt']")[0].select('b/text()').extract()[0].encode('UTF8')
 		item['gyvena'] =hxs.select("//td[@class='bigcell']/table/tr[@class='r2']/td[@class='lt']")[0].select('b/text()').extract()[0].encode('UTF8')
 
-		item['neatlikta_bausme'] = hxs.select("//td[@class='bigcell']/table/tr[@class='r1']/td[@class='lt']")[1].select('b/text()').extract()[0].encode('UTF8')
-		item['pripazintas_kaltu']=hxs.select("//td[@class='bigcell']/table/tr[@class='r2']/td[@class='lt']")[3].select('b/text()').extract()[0].encode('UTF8')
+		i=3	
+		
+		if re.search('^\r\n\d{1,2}\.',hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('text()').extract()[0].encode('UTF8')) ==None:
+			i+=1
+		item['neatlikta_bausme'] = hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('b/text()').extract()[0].encode('UTF8')
+		
+		i+=5
+		if re.search('^\r\n\d{1,2}\.',hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('text()').extract()[0].encode('UTF8')) ==None:
+			i+=1
+		item['pripazintas_kaltu']=hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('b/text()').extract()[0].encode('UTF8')
+		i+=1
 
-		item['sunkus_nusikaltimas']=hxs.select("//td[@class='bigcell']/table/tr[@class='r1']/td[@class='lt']")[4].select('b/text()').extract()[0].encode('UTF8')
-		item['gimimo_vieta']=hxs.select("//td[@class='bigcell']/table/tr[@class='r2']/td[@class='lt']")[4].select('b/text()').extract()[0].encode('UTF8') 
+		if re.search('^\r\n\d{1,2}\.',hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('text()').extract()[0].encode('UTF8')) ==None:
+			i+=1
+		item['sunkus_nusikaltimas']=hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('b/text()').extract()[0].encode('UTF8')
+		i+=1
+		if re.search('^\r\n\d{1,2}\.',hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('text()').extract()[0].encode('UTF8')) ==None:
+			i+=1
+		item['gimimo_vieta']=hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('b/text()').extract()[0].encode('UTF8') 
+		i+=1
 
+		if re.search('^\r\n\d{1,2}\.',hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('text()').extract()[0].encode('UTF8')) ==None:
+			i+=1
 
-		item['tautybe'] =hxs.select("//td[@class='bigcell']/table/tr[@class='r1']/td[@class='lt']")[5].select('b/text()').extract()[0].encode('UTF8')
-		if len(hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[12].select('table/tr'))>0:
-			item['issilavinimas']=";".join(hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[12].select('table/tr').select('td[@class="ltb"]/b/text()').extract()).encode('UTF8')
+		item['tautybe'] =hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('b/text()').extract()[0].encode('UTF8')
+		i+=1
 
-		if len(hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[13].select('b/text()'))>0:
-			item['uzsienio_kalbos']=hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[13].select('b/text()').extract()[0].encode('UTF8')
+		if len(hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('table/tr'))>0:
+			item['issilavinimas']=";".join(hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('table/tr').select('td[@class="ltb"]/b/text()').extract()).encode('UTF8')
+		i+=1
 
-		if len(hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[16].select('b/text()'))>0:
-			item['darboviete'] = hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[16].select('b/text()').extract()[0].encode('UTF8')
-		if len(hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[19].select('b/text()'))>0:
-			item['seimynine_padetis'] = hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[19].select('b/text()').extract()[0].encode('UTF8')
+		if len(hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('b/text()'))>0:
+			item['uzsienio_kalbos']=hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('b/text()').extract()[0].encode('UTF8')
+		i+=3
 
-		if len(hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[18].select('b/text()'))>0:
-			item['pomegiai'] = hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[18].select('b/text()').extract()[0].encode('UTF8')
+		if len(hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('b/text()'))>0:
+			item['darboviete'] = hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('b/text()').extract()[0].encode('UTF8')
+		i+=2	
+		if len(hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('b/text()'))>0:
+			item['pomegiai'] = hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('b/text()').extract()[0].encode('UTF8')
+		i+=1
+		if len(hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('b/text()'))>0:
+			item['seimynine_padetis'] = hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('b/text()').extract()[0].encode('UTF8')
 
 
 		"""
