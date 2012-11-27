@@ -6,7 +6,7 @@ from rinkimai.items import ApylinkeItem
 from rinkimai.items import KandidatoRezultaiApygardojeItem
 import re
 
-class ApylinkeSpider(CrawlSpider):
+class VienmandateApylinkeSpider(CrawlSpider):
         name = "apylinke2008"
         allowed_domains = ["www.vrk.lt"]
 	start_urls = ["http://www.vrk.lt/2008_seimo_rinkimai/output_lt/rezultatai_vienmand_apygardose/rezultatai_vienmand_apygardose1turas.html"]
