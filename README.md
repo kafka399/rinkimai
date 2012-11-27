@@ -1,8 +1,8 @@
-Seimo rinkimų rezultai.
+Seimo rinkimų rezultatai.
 
 **TODO**
 
-   * 2012 daugiamdatės
+   * 2012 daugiamandatės
    * bendra suvestinė 2012,2008,2004  
    * 2012, 2008 II turas
    * 2000
