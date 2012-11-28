@@ -46,7 +46,7 @@ class VienmandateSpider(CrawlSpider):
 		hxs = HtmlXPathSelector(response)
 		apygarda = hxs.select('//p/font/b/text()').extract()[0].encode('UTF8')
 		apylinke =hxs.select('//p/font/b/text()').extract()[1].encode('UTF8')
-		viso = int(hxs.select('//b/text()')[3].extract().encode('UTF8'))
+		viso = int(hxs.select('//b/text()')[8].extract().encode('UTF8'))
 		viso_biuleteniu = int(hxs.select('//b/text()')[5].extract().encode('UTF8'))
 		kandidatai = hxs.select('//table/tr')
 

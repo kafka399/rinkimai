@@ -6,7 +6,7 @@ Seimo rinkimų rezultatai.
    * bendra suvestinė 2012,2008,2004  
    * 2012, 2008 II turas - DONE
    * 2000
-   * 1996
+   * 1996 - DONE, daugiamandaciu encodingas blogas
    * pataisyti failų pavadinimus - DONE
    * kandidatu deklaracijos
    * išrinkti Seimo nariai
