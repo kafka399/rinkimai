@@ -11,7 +11,9 @@ class VienmandateSpider(CrawlSpider):
         name = "vienmandate1996"
         allowed_domains = ["www3.lrs.lt"]
 	start_urls = ["http://www3.lrs.lt/n/rinkimai/seim96/rapgs1l.htm"]
-	rules =[Rule(SgmlLinkExtractor(allow=['seim96/rapgpl.htm'],deny=['rezultatai/rezv_e_','_apg_e_']), 'parse_apygarda', follow=True),
+	rules =[Rule(SgmlLinkExtractor(allow=['seim96/rapgpl.htm'],deny=['rezultatai/rezv_e_','_apg_e_']),
+		#'parse_apygarda', 
+		 follow=True),
 		Rule(SgmlLinkExtractor(allow=['raplsarl.htm']), follow=True),
 		Rule(SgmlLinkExtractor(allow=['seim96/raplpl.htm']), 'parse_apylinke', follow=False)
 
@@ -32,21 +34,14 @@ class VienmandateSpider(CrawlSpider):
 				item['kandidatas'] = (kan.select('td/a/text()').extract())[0].encode('UTF8')
 				item['apylinkese'] =  (kan.select('td/text()').extract()[0]).encode('UTF8').replace("\xc2\xa0", "")
 				item['pastu'] = (kan.select('td/text()').extract()[1]).encode('UTF8').replace("\xc2\xa0", "")
-				item['nuo_galiojanciu_biuleteniu'] = round(int(hxs.select('//p/b/text()').extract()[6]),2)
-				item['nuo_rinkeju'] = round(int((kan.select('td/text()').extract()[2]).encode('UTF8').replace("\xc2\xa0", ""))/(viso),2)
+				viso_balsu = int((kan.select('td/text()').extract()[2]).encode('UTF8').replace("\xc2\xa0", ""))
+				item['nuo_galiojanciu_biuleteniu'] = round(viso_balsu/viso_biuleteniu,4)
+				item['nuo_rinkeju'] = round(viso_balsu/(viso),4)
 				yield item
-		"""
-		for ap in apylinkes:
-	                item = ApylinkeItem()
-			item['apygarda'] = apygarda
-			if len(ap.select('td/a/text()').extract())>0:
-				item['apylinke'] = (ap.select('td/a/text()').extract())[0].encode('UTF8')
-				item['rinkeju_skaicius']=(ap.select('td/text()').extract())[1].encode('UTF8')
-				item['dalyvavo'] = (ap.select('td/text()').extract())[2].encode('UTF8')
-				item['negaliojantys_biuleteniai'] = (ap.select('td/text()').extract())[4].encode('UTF8')
-				yield item
-		"""
-
+		
+		
+		
+		
 	def parse_apylinke(self,response):
 		hxs = HtmlXPathSelector(response)
 		apygarda = hxs.select('//p/font/b/text()').extract()[0].encode('UTF8')
@@ -63,7 +58,8 @@ class VienmandateSpider(CrawlSpider):
 			if len(kan.select('td/a/text()').extract())>0:
 				item['kandidatas'] = (kan.select('td/a/text()').extract())[0].encode('UTF8')
 				item['balsadezeje'] =  (kan.select('td/text()').extract()[1]).encode('UTF8').replace("\xc2\xa0", "")
-				item['pastu'] = (kan.select('td/text()').extract()[1]).encode('UTF8').replace("\xc2\xa0", "")
-				item['nuo_galiojanciu_biuleteniu'] = round(int((kan.select('td/text()').extract()[2]).encode('UTF8').replace("\xc2\xa0", ""))/viso_biuleteniu,2)
-				item['nuo_rinkeju'] = round(int((kan.select('td/text()').extract()[2]).encode('UTF8').replace("\xc2\xa0", ""))/viso,2)
+				item['pastu'] = (kan.select('td/text()').extract()[2]).encode('UTF8').replace("\xc2\xa0", "")
+				viso_balsu = int((kan.select('td/text()').extract()[3]).encode('UTF8').replace("\xc2\xa0", ""))
+				item['nuo_galiojanciu_biuleteniu'] = round(viso_balsu/viso_biuleteniu,4)
+				item['nuo_rinkeju'] = round(viso_balsu/viso,4)
 				yield item
