@@ -6,7 +6,7 @@ Seimo rinkimų rezultatai.
    * bendra suvestinė 2012,2008,2004  
    * 2012, 2008 II turas - DONE
    * 2000
-   * 1996 - DONE, daugiamandaciu encodingas blogas
+   * 1996 - DONE
    * pataisyti failų pavadinimus - DONE
    * kandidatu deklaracijos
    * išrinkti Seimo nariai
@@ -35,7 +35,7 @@ vienmandate2004_2_kandidatorezultaiapygardojeitem.csv
    + http://www3.lrs.lt/rinkimai/2004/seimas/rezultatai/rezv_apg_l_1603_2.htm - tik po vien kandidata apygardoje yra? Fix: td/a/text
 
 2004
-   + Kaip del diplomatiniu atstovybiu duomenu? Rinkeju skaicius nemazas iseina. Dabar atrodo nepateikiami sitie duomenys? http://www3.lrs.lt/rinkimai/2004/seimas/rezultatai/rezv_apg_l_1603_1.htm
+   + **FIXED** Kaip del diplomatiniu atstovybiu duomenu? Rinkeju skaicius nemazas iseina. Dabar atrodo nepateikiami sitie duomenys? http://www3.lrs.lt/rinkimai/2004/seimas/rezultatai/rezv_apg_l_1603_1.htm
 
 2004_2_apylinkeitem:
     + 513, 621 eilutes vietoje rinkeju skaiciaus atsiranda procentai. Problema velgi su tom eilutemis, kur rezultatus skaiciavo apygardoje.
