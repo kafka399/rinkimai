@@ -16,7 +16,8 @@ class DaugiamandateSpider(CrawlSpider):
 			]
 
         def parse_apygarda(self,response):
-                hxs = HtmlXPathSelector(response)
+
+                hxs = HtmlXPathSelector(response.replace(encoding='windows-1257'))
 		apygarda = hxs.select('//p/font/text()')[4].extract().encode('UTF8')
 		viso = int(hxs.select('//p')[6].select('b/text()')[0].extract().encode('UTF8'))
 		viso_biuleteniu = int(hxs.select('//p')[6].select('b/text()')[5].extract().encode('UTF8'))
