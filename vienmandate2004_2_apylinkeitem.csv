@@ -7,10 +7,10 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 591,1512,Naujamiesčio (Nr.1) vienmandatė apygarda,87,Vytauto
 835,1843,Naujamiesčio (Nr.1) vienmandatė apygarda,81,Birutės
 430,1015,Naujamiesčio (Nr.1) vienmandatė apygarda,54,Pamėnkalnio
-473,1047,Naujamiesčio (Nr.1) vienmandatė apygarda,58,J.Jasinskio
+473,1047,Naujamiesčio (Nr.1) vienmandatė apygarda,58,JJasinskio
 737,1477,Naujamiesčio (Nr.1) vienmandatė apygarda,101,Taurakalnio
-465,1042,Naujamiesčio (Nr.1) vienmandatė apygarda,40,M.K.Čiurlionio
-1090,2542,Naujamiesčio (Nr.1) vienmandatė apygarda,125,S.Konarskio
+465,1042,Naujamiesčio (Nr.1) vienmandatė apygarda,40,MKČiurlionio
+1090,2542,Naujamiesčio (Nr.1) vienmandatė apygarda,125,SKonarskio
 622,1476,Naujamiesčio (Nr.1) vienmandatė apygarda,93,Mindaugo
 384,924,Naujamiesčio (Nr.1) vienmandatė apygarda,59,Švitrigailos
 941,2357,Naujamiesčio (Nr.1) vienmandatė apygarda,137,Vytenio
@@ -20,6 +20,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 741,1896,Naujamiesčio (Nr.1) vienmandatė apygarda,167,Naujininkų
 750,2326,Naujamiesčio (Nr.1) vienmandatė apygarda,154,Brolių
 610,1918,Naujamiesčio (Nr.1) vienmandatė apygarda,140,Gimnazijos
+8409,16495,Naujamiesčio (Nr.1) vienmandatė apygarda,98,Balsavimas LR diplomatinėse atstovybėse
 380,768,Lazdijų - Druskininkų (Nr.71) vienmandatė apygarda,11,Avižienių
 674,1634,Lazdijų - Druskininkų (Nr.71) vienmandatė apygarda,28,Senamiesčio
 111,183,Lazdijų - Druskininkų (Nr.71) vienmandatė apygarda,5,Bartelių
@@ -32,7 +33,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 1363,3405,Lazdijų - Druskininkų (Nr.71) vienmandatė apygarda,50,Kalviškės
 599,1779,Lazdijų - Druskininkų (Nr.71) vienmandatė apygarda,14,Eglės
 475,975,Lazdijų - Druskininkų (Nr.71) vienmandatė apygarda,12,Kapčiamiesčio
-291,630,Lazdijų - Druskininkų (Nr.71) vienmandatė apygarda,12,A.Kirsnos
+291,630,Lazdijų - Druskininkų (Nr.71) vienmandatė apygarda,12,AKirsnos
 372,1004,Lazdijų - Druskininkų (Nr.71) vienmandatė apygarda,6,Ratnyčios
 103,286,Lazdijų - Druskininkų (Nr.71) vienmandatė apygarda,5,Grūto
 224,453,Lazdijų - Druskininkų (Nr.71) vienmandatė apygarda,6,Kirsnos
@@ -108,7 +109,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 1069,2693,Varėnos - Eišiškių (Nr.70) vienmandatė apygarda,35,Parko
 1113,2667,Varėnos - Eišiškių (Nr.70) vienmandatė apygarda,46,Dzūkų
 1284,2912,Varėnos - Eišiškių (Nr.70) vienmandatė apygarda,35,Šilo
-430,1124,Varėnos - Eišiškių (Nr.70) vienmandatė apygarda,11,Senosios Varėnos
+430,1124,Varėnos - Eišiškių (Nr.70) vienmandatė apygarda,11,SenosiosVarėnos
 212,738,Dzūkijos (Nr.69) vienmandatė apygarda,5,Praniūnų
 165,403,Dzūkijos (Nr.69) vienmandatė apygarda,2,Genių
 424,1123,Dzūkijos (Nr.69) vienmandatė apygarda,8,Miklusėnų
@@ -123,7 +124,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 877,2430,Dzūkijos (Nr.69) vienmandatė apygarda,29,Šaltinių
 235,528,Dzūkijos (Nr.69) vienmandatė apygarda,5,Kumečių
 317,1333,Dzūkijos (Nr.69) vienmandatė apygarda,7,Ūdrijos
-444,1544,Dzūkijos (Nr.69) vienmandatė apygarda,13,Alytaus dujų ūkio
+444,1544,Dzūkijos (Nr.69) vienmandatė apygarda,13,Alytausdujųūkio
 191,483,Dzūkijos (Nr.69) vienmandatė apygarda,10,Vankiškių
 296,1295,Dzūkijos (Nr.69) vienmandatė apygarda,11,Pramonės
 582,1529,Dzūkijos (Nr.69) vienmandatė apygarda,20,Simno
@@ -180,7 +181,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 719,1681,Kauno kaimiškoji (Nr.66) vienmandatė apygarda,19,Ežerėlio
 1704,4103,Kauno kaimiškoji (Nr.66) vienmandatė apygarda,47,Garliavos
 1133,2711,Kauno kaimiškoji (Nr.66) vienmandatė apygarda,37,Atžalyno
-1285,3593,Kauno kaimiškoji (Nr.66) vienmandatė apygarda,46,S.Lozoraičio
+1285,3593,Kauno kaimiškoji (Nr.66) vienmandatė apygarda,46,SLozoraičio
 352,637,Kauno kaimiškoji (Nr.66) vienmandatė apygarda,7,Kačerginės
 195,489,Kauno kaimiškoji (Nr.66) vienmandatė apygarda,4,Linksmakalnio
 128,203,Kauno - Kėdainių (Nr.65) vienmandatė apygarda,4,Angirių
@@ -261,10 +262,10 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 157,326,Šakių (Nr.64) vienmandatė apygarda,3,Ritinių
 456,985,Šakių (Nr.64) vienmandatė apygarda,16,Girėnų
 220,517,Šakių (Nr.64) vienmandatė apygarda,6,Briedžių
-737,1566,Šakių (Nr.64) vienmandatė apygarda,24,Kudirkos Naumiesčio
-777,1966,Suvalkijos (Nr.63) vienmandatė apygarda,18,Kalvarijos Vakarinė
-563,1357,Suvalkijos (Nr.63) vienmandatė apygarda,14,Kazlų Rūdos
-724,1901,Suvalkijos (Nr.63) vienmandatė apygarda,17,Kalvarijos Rytinė
+737,1566,Šakių (Nr.64) vienmandatė apygarda,24,KudirkosNaumiesčio
+777,1966,Suvalkijos (Nr.63) vienmandatė apygarda,18,KalvarijosVakarinė
+563,1357,Suvalkijos (Nr.63) vienmandatė apygarda,14,KazlųRūdos
+724,1901,Suvalkijos (Nr.63) vienmandatė apygarda,17,KalvarijosRytinė
 878,2189,Suvalkijos (Nr.63) vienmandatė apygarda,18,Pušų
 414,1179,Suvalkijos (Nr.63) vienmandatė apygarda,9,Jungėnų
 624,1615,Suvalkijos (Nr.63) vienmandatė apygarda,18,Mindaugo
@@ -275,14 +276,14 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 270,694,Suvalkijos (Nr.63) vienmandatė apygarda,11,Antanavo
 166,376,Suvalkijos (Nr.63) vienmandatė apygarda,9,Mockų
 286,789,Suvalkijos (Nr.63) vienmandatė apygarda,6,Jusevičių
-236,454,Suvalkijos (Nr.63) vienmandatė apygarda,8,Višakio Rūdos
+236,454,Suvalkijos (Nr.63) vienmandatė apygarda,8,VišakioRūdos
 275,644,Suvalkijos (Nr.63) vienmandatė apygarda,5,Jūrės
 247,522,Suvalkijos (Nr.63) vienmandatė apygarda,8,Sangrūdos
 205,441,Suvalkijos (Nr.63) vienmandatė apygarda,2,Jūrės
 113,356,Suvalkijos (Nr.63) vienmandatė apygarda,3,Radiškės
 183,628,Suvalkijos (Nr.63) vienmandatė apygarda,1,Plutiškių
 125,343,Suvalkijos (Nr.63) vienmandatė apygarda, ,Salaperaugio
-373,930,Suvalkijos (Nr.63) vienmandatė apygarda,3,Ąžuolų Būdos
+373,930,Suvalkijos (Nr.63) vienmandatė apygarda,3,ĄžuolųBūdos
 186,371,Suvalkijos (Nr.63) vienmandatė apygarda,3,Liubavo
 133,377,Suvalkijos (Nr.63) vienmandatė apygarda,2,Bebruliškių
 124,322,Suvalkijos (Nr.63) vienmandatė apygarda,4,Brazavo
@@ -292,7 +293,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 165,362,Suvalkijos (Nr.63) vienmandatė apygarda,2,Tarprubežių
 131,323,Suvalkijos (Nr.63) vienmandatė apygarda,1,Akmenynų
 122,360,Suvalkijos (Nr.63) vienmandatė apygarda, ,Kampinių
-379,1323,Suvalkijos (Nr.63) vienmandatė apygarda,9,Mokolų kaimo
+379,1323,Suvalkijos (Nr.63) vienmandatė apygarda,9,Mokolųkaimo
 183,374,Suvalkijos (Nr.63) vienmandatė apygarda,4,Aistiškių
 294,820,Suvalkijos (Nr.63) vienmandatė apygarda,15,Šunskų
 353,950,Suvalkijos (Nr.63) vienmandatė apygarda,12,Sasnavos
@@ -351,14 +352,14 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 187,462,Jurbarko (Nr.62) vienmandatė apygarda,6,Trepų
 510,1202,Jurbarko (Nr.62) vienmandatė apygarda,5,Skirsnemunės
 232,614,Jurbarko (Nr.62) vienmandatė apygarda,7,Vaidilų
-996,2409,Jurbarko (Nr.62) vienmandatė apygarda,17,Dariaus ir Girėno
+996,2409,Jurbarko (Nr.62) vienmandatė apygarda,17,DariausirGirėno
 1077,2695,Jurbarko (Nr.62) vienmandatė apygarda,33,Vydūno
-1111,2819,Jurbarko (Nr.62) vienmandatė apygarda,23,Vytauto Didžiojo
+1111,2819,Jurbarko (Nr.62) vienmandatė apygarda,23,VytautoDidžiojo
 992,2736,Jurbarko (Nr.62) vienmandatė apygarda,27,Naujamiesčio
-642,1732,Ukmergės (Nr.61) vienmandatė apygarda,34,S.Daukanto
+642,1732,Ukmergės (Nr.61) vienmandatė apygarda,34,SDaukanto
 660,1485,Ukmergės (Nr.61) vienmandatė apygarda,58,Anykščių
 759,2027,Ukmergės (Nr.61) vienmandatė apygarda,82,Maironio
-400,1063,Ukmergės (Nr.61) vienmandatė apygarda,36,J.Basanavičiaus
+400,1063,Ukmergės (Nr.61) vienmandatė apygarda,36,JBasanavičiaus
 434,1140,Ukmergės (Nr.61) vienmandatė apygarda,44,Vytauto
 264,896,Ukmergės (Nr.61) vienmandatė apygarda,27,Kęstučio
 402,1119,Ukmergės (Nr.61) vienmandatė apygarda,35,Klaipėdos
@@ -456,9 +457,9 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 765,1870,Kaišiadorių - Elektrėnų (Nr.59) vienmandatė apygarda,23,Pravieniškių
 376,798,Kaišiadorių - Elektrėnų (Nr.59) vienmandatė apygarda,8,Dovainonių
 283,671,Kaišiadorių - Elektrėnų (Nr.59) vienmandatė apygarda,3,Antakalnio
-256,600,Kaišiadorių - Elektrėnų (Nr.59) vienmandatė apygarda,22,Mūro Strėvininkų
+256,600,Kaišiadorių - Elektrėnų (Nr.59) vienmandatė apygarda,22,MūroStrėvininkų
 156,398,Kaišiadorių - Elektrėnų (Nr.59) vienmandatė apygarda,3,Liutonių
-947,2673,Trakų - Elektrėnų (Nr.58) vienmandatė apygarda,59,Trakų m.
+947,2673,Trakų - Elektrėnų (Nr.58) vienmandatė apygarda,59,Trakųm
 250,1092,Trakų - Elektrėnų (Nr.58) vienmandatė apygarda,9,Ausieniškių
 270,1350,Trakų - Elektrėnų (Nr.58) vienmandatė apygarda,16,Balceriškių
 123,322,Trakų - Elektrėnų (Nr.58) vienmandatė apygarda,8,Beižonių
@@ -480,7 +481,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 165,427,Trakų - Elektrėnų (Nr.58) vienmandatė apygarda,4,Dusmenų
 428,1104,Trakų - Elektrėnų (Nr.58) vienmandatė apygarda,12,Onuškio
 143,444,Trakų - Elektrėnų (Nr.58) vienmandatė apygarda,9,Vaickūniškių
-802,2869,Trakų - Elektrėnų (Nr.58) vienmandatė apygarda,30,Kauno Vokės
+802,2869,Trakų - Elektrėnų (Nr.58) vienmandatė apygarda,30,KaunoVokės
 385,999,Trakų - Elektrėnų (Nr.58) vienmandatė apygarda,12,Paluknio
 888,2840,Trakų - Elektrėnų (Nr.58) vienmandatė apygarda,31,Kunigiškių
 96,414,Trakų - Elektrėnų (Nr.58) vienmandatė apygarda,1,Bijūnų
@@ -491,30 +492,30 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 95,342,Trakų - Elektrėnų (Nr.58) vienmandatė apygarda,3,Bagdononių
 935,3028,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,58,Lentvario
 1490,4384,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,102,Klevų
-363,1310,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,15,Baltosios Vokės
+363,1310,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,15,BaltosiosVokės
 1083,3184,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,82,Pagirių
-457,1070,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,9,Keturiasdešimties Totorių
+457,1070,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,9,KeturiasdešimtiesTotorių
 603,1234,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,10,Grigaičių
 495,1125,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,21,Kyviškių
 367,947,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,14,Marijampolio
 306,794,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,6,Parudaminio
 1019,3082,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,44,Nemėžio
 970,3768,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,42,Skaidiškių
-138,310,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,2,Senojo Tarpupio
-575,1456,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,18,Senųjų Trakų
+138,310,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,2,SenojoTarpupio
+575,1456,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,18,SenųjųTrakų
 152,303,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,5,Šventininkų
 1494,3565,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,84,Rudaminos
 423,957,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,16,Kalviškių
 518,1889,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,16,Valčiūnų
 1015,1515,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,19,Rukainių
 792,2109,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,82,Lauko
-304,383,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,8,Mažųjų Lygainių
+304,383,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,8,MažųjųLygainių
 773,1880,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,27,Juodšilių
 899,3186,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,109,Melioratorių
- ,4,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,25.00%,"Balsai, suskaičiuoti apygardos rinkimų komisijoje"
+ ,4,Vilniaus - Trakų (Nr.57) vienmandatė apygarda,25.00%,"Balsai,suskaičiuotiapygardosrinkimųkomisijoje"
 621,1618,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,32,Avižienių
-847,2890,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,65,Širvintų m.
-1229,3295,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,70,I.Šeiniaus
+847,2890,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,65,Širvintųm
+1229,3295,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,70,IŠeiniaus
 360,948,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,57,Riešės
 564,920,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,3,Buivydžių
 185,455,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,10,Juodiškių
@@ -538,7 +539,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 127,281,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,6,Alekniškio
 188,511,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,19,Družų
 105,290,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,8,Motiejūnų
-264,776,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,14,Širvintų kaimiškoji
+264,776,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,14,Širvintųkaimiškoji
 146,393,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,14,Anciūnų
 697,1457,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,22,Maišiagalos
 370,719,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,6,Karvio
@@ -551,7 +552,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 833,1865,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,32,Paberžės
 352,724,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,18,Glitiškių
 295,678,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,4,Visalaukės
-921,1968,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,69,Didžiosios Riešės
+921,1968,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,69,DidžiosiosRiešės
 587,1102,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,13,Pikeliškių
 760,1420,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,22,Sudervės
 337,700,Širvintų - Vilniaus (Nr.55) vienmandatė apygarda,11,Sužionių
@@ -606,7 +607,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 91,185,Ignalinos - Švenčionių (Nr.53) vienmandatė apygarda,3,Grybėnų
 361,652,Ignalinos - Švenčionių (Nr.53) vienmandatė apygarda,5,Trūdų
 336,625,Ignalinos - Švenčionių (Nr.53) vienmandatė apygarda,8,Grigaliūnų
-1717,3787,Ignalinos - Švenčionių (Nr.53) vienmandatė apygarda,26,Ignalinos Centro
+1717,3787,Ignalinos - Švenčionių (Nr.53) vienmandatė apygarda,26,IgnalinosCentro
 718,1436,Ignalinos - Švenčionių (Nr.53) vienmandatė apygarda,12,Ignalinos
 230,416,Ignalinos - Švenčionių (Nr.53) vienmandatė apygarda,3,Milkuškų
 256,520,Ignalinos - Švenčionių (Nr.53) vienmandatė apygarda,5,Kaniūkų
@@ -622,7 +623,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 202,286,Ignalinos - Švenčionių (Nr.53) vienmandatė apygarda,2,Jakelių
 251,430,Ignalinos - Švenčionių (Nr.53) vienmandatė apygarda,2,Meikštų
 292,472,Ignalinos - Švenčionių (Nr.53) vienmandatė apygarda,5,Mielagėnų
-272,530,Ignalinos - Švenčionių (Nr.53) vienmandatė apygarda,6,N.Daugėliškio
+272,530,Ignalinos - Švenčionių (Nr.53) vienmandatė apygarda,6,NDaugėliškio
 154,358,Ignalinos - Švenčionių (Nr.53) vienmandatė apygarda,1,Pažemiškių
 1155,2231,Ignalinos - Švenčionių (Nr.53) vienmandatė apygarda,16,Švenčionių
 1025,2263,Ignalinos - Švenčionių (Nr.53) vienmandatė apygarda,22,Liepų
@@ -642,7 +643,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 374,701,Zarasų - Visagino (Nr.52) vienmandatė apygarda,9,Antalieptės
 591,1446,Zarasų - Visagino (Nr.52) vienmandatė apygarda,8,Draugystės
 345,544,Zarasų - Visagino (Nr.52) vienmandatė apygarda,22,Antazavės
-362,1004,Zarasų - Visagino (Nr.52) vienmandatė apygarda,4,Gerosios Vilties
+362,1004,Zarasų - Visagino (Nr.52) vienmandatė apygarda,4,GerosiosVilties
 338,1058,Zarasų - Visagino (Nr.52) vienmandatė apygarda,5,Sedulinos
 182,343,Zarasų - Visagino (Nr.52) vienmandatė apygarda,5,Šniukštų
 434,1318,Zarasų - Visagino (Nr.52) vienmandatė apygarda,4,Atgimimo
@@ -661,10 +662,10 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 414,1188,Zarasų - Visagino (Nr.52) vienmandatė apygarda,7,Vilties
 408,1175,Zarasų - Visagino (Nr.52) vienmandatė apygarda,3,Bangos
 279,439,Zarasų - Visagino (Nr.52) vienmandatė apygarda,1,Suvieko
-384,1141,Zarasų - Visagino (Nr.52) vienmandatė apygarda,6,Auksinio gaidelio
+384,1141,Zarasų - Visagino (Nr.52) vienmandatė apygarda,6,Auksiniogaidelio
 235,496,Zarasų - Visagino (Nr.52) vienmandatė apygarda,3,Dimitriškių
 228,606,Zarasų - Visagino (Nr.52) vienmandatė apygarda,3,Magučių
-404,1187,Zarasų - Visagino (Nr.52) vienmandatė apygarda,6,Vilties šaltinio
+404,1187,Zarasų - Visagino (Nr.52) vienmandatė apygarda,6,Viltiesšaltinio
 450,1429,Zarasų - Visagino (Nr.52) vienmandatė apygarda,4,Gintarėlio
 178,363,Zarasų - Visagino (Nr.52) vienmandatė apygarda,3,Šaulių
 369,1241,Zarasų - Visagino (Nr.52) vienmandatė apygarda,4,Gandriuko
@@ -676,10 +677,10 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 529,1181,Zarasų - Visagino (Nr.52) vienmandatė apygarda,12,Dusetų
 125,268,Zarasų - Visagino (Nr.52) vienmandatė apygarda, ,Sadūnų
 564,1271,Zarasų - Visagino (Nr.52) vienmandatė apygarda,6,Užtiltės
-1500,3098,Zarasų - Visagino (Nr.52) vienmandatė apygarda,25,Zarasų rytų
-959,1878,Zarasų - Visagino (Nr.52) vienmandatė apygarda,41,Zarasų vakarų
-855,1584,Zarasų - Visagino (Nr.52) vienmandatė apygarda,26,Zarasų šiaurės
- ,8,Zarasų - Visagino (Nr.52) vienmandatė apygarda, ,"Balsai, suskaičiuoti apygardos rinkimų komisijoje"
+1500,3098,Zarasų - Visagino (Nr.52) vienmandatė apygarda,25,Zarasųrytų
+959,1878,Zarasų - Visagino (Nr.52) vienmandatė apygarda,41,Zarasųvakarų
+855,1584,Zarasų - Visagino (Nr.52) vienmandatė apygarda,26,Zarasųšiaurės
+ ,8,Zarasų - Visagino (Nr.52) vienmandatė apygarda, ,"Balsai,suskaičiuotiapygardosrinkimųkomisijoje"
 1025,2722,Utenos (Nr.51) vienmandatė apygarda,12,Aukštakalnio
 1144,2966,Utenos (Nr.51) vienmandatė apygarda,25,Taikos
 1581,3850,Utenos (Nr.51) vienmandatė apygarda,24,Aušros
@@ -709,10 +710,10 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 122,248,Utenos (Nr.51) vienmandatė apygarda,1,Vilučių
 394,798,Utenos (Nr.51) vienmandatė apygarda,12,Vyžuonų
 475,1050,Utenos (Nr.51) vienmandatė apygarda,20,Vyžuonėlių
-1192,2610,Rokiškio (Nr.50) vienmandatė apygarda,24,J.Tumo-Vaižganto
+1192,2610,Rokiškio (Nr.50) vienmandatė apygarda,24,JTumo-Vaižganto
 1299,2794,Rokiškio (Nr.50) vienmandatė apygarda,24,Senamiesčio
 958,1988,Rokiškio (Nr.50) vienmandatė apygarda,19,Mikrorajono
-1233,2837,Rokiškio (Nr.50) vienmandatė apygarda,15,J.Tūbelio
+1233,2837,Rokiškio (Nr.50) vienmandatė apygarda,15,JTūbelio
 1192,2553,Rokiškio (Nr.50) vienmandatė apygarda,22,Respublikos
 451,969,Rokiškio (Nr.50) vienmandatė apygarda,6,Bajorų
 130,248,Rokiškio (Nr.50) vienmandatė apygarda,4,Čedasų
@@ -724,7 +725,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 656,1063,Rokiškio (Nr.50) vienmandatė apygarda,13,Obelių
 376,826,Rokiškio (Nr.50) vienmandatė apygarda,7,Pandėlio
 915,1762,Rokiškio (Nr.50) vienmandatė apygarda,33,Juodupės
-371,961,Rokiškio (Nr.50) vienmandatė apygarda,4,Juodupės kaimiškoji
+371,961,Rokiškio (Nr.50) vienmandatė apygarda,4,Juodupėskaimiškoji
 187,320,Rokiškio (Nr.50) vienmandatė apygarda, ,Maineivų
 151,301,Rokiškio (Nr.50) vienmandatė apygarda,7,Lukštų
 465,971,Rokiškio (Nr.50) vienmandatė apygarda,4,Jūžintų
@@ -782,7 +783,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 174,420,Anykščių - Kupiškio (Nr.49) vienmandatė apygarda,2,Kurklelių
 226,563,Anykščių - Kupiškio (Nr.49) vienmandatė apygarda,17,Skverbų
 208,422,Anykščių - Kupiškio (Nr.49) vienmandatė apygarda,7,Staškūniškio
-373,971,Anykščių - Kupiškio (Nr.49) vienmandatė apygarda,11,Subačiaus 
+373,971,Anykščių - Kupiškio (Nr.49) vienmandatė apygarda,11,Subačiaus
 131,346,Anykščių - Kupiškio (Nr.49) vienmandatė apygarda,4,Katlėrių
 316,1028,Anykščių - Kupiškio (Nr.49) vienmandatė apygarda,7,Šepetos
 243,581,Anykščių - Kupiškio (Nr.49) vienmandatė apygarda,8,Skiemonių
@@ -819,7 +820,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 717,1587,Biržų - Kupiškio (Nr.48) vienmandatė apygarda,17,Senamiesčio
 613,1705,Biržų - Kupiškio (Nr.48) vienmandatė apygarda,27,Rinkuškių
 212,540,Biržų - Kupiškio (Nr.48) vienmandatė apygarda,3,Germaniškio
-360,845,Biržų - Kupiškio (Nr.48) vienmandatė apygarda,23,Nemunėlio Radviliškio
+360,845,Biržų - Kupiškio (Nr.48) vienmandatė apygarda,23,NemunėlioRadviliškio
 172,321,Biržų - Kupiškio (Nr.48) vienmandatė apygarda,2,Pučiakalnės
 326,737,Biržų - Kupiškio (Nr.48) vienmandatė apygarda,3,Kirdonių
 495,987,Biržų - Kupiškio (Nr.48) vienmandatė apygarda,7,Pabiržės
@@ -846,7 +847,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 577,1188,Biržų - Kupiškio (Nr.48) vienmandatė apygarda,12,Vabalninko
 308,655,Pasvalio - Panevėžio (Nr.47) vienmandatė apygarda,9,Geležių
 638,1155,Pasvalio - Panevėžio (Nr.47) vienmandatė apygarda,20,Joniškėlio
-1334,2589,Pasvalio - Panevėžio (Nr.47) vienmandatė apygarda,27,P.Vileišio
+1334,2589,Pasvalio - Panevėžio (Nr.47) vienmandatė apygarda,27,PVileišio
 338,845,Pasvalio - Panevėžio (Nr.47) vienmandatė apygarda,3,Tiltagalių
 1235,2647,Pasvalio - Panevėžio (Nr.47) vienmandatė apygarda,23,Kalno
 165,424,Pasvalio - Panevėžio (Nr.47) vienmandatė apygarda,3,Karsakiškio
@@ -896,7 +897,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 217,584,Pakruojo - Joniškio (Nr.46) vienmandatė apygarda,4,Bardiškių
 1414,3293,Pakruojo - Joniškio (Nr.46) vienmandatė apygarda,36,Livonijos
 105,208,Pakruojo - Joniškio (Nr.46) vienmandatė apygarda,2,Degesių
-974,2773,Pakruojo - Joniškio (Nr.46) vienmandatė apygarda,23,V.Kudirkos
+974,2773,Pakruojo - Joniškio (Nr.46) vienmandatė apygarda,23,VKudirkos
 106,274,Pakruojo - Joniškio (Nr.46) vienmandatė apygarda,8,Degučių
 258,817,Pakruojo - Joniškio (Nr.46) vienmandatė apygarda,3,Bariūnų
 101,237,Pakruojo - Joniškio (Nr.46) vienmandatė apygarda, ,Draudelių
@@ -963,7 +964,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 99,326,Šiaulių kaimiškoji (Nr.45) vienmandatė apygarda,6,Gilaičių
 229,700,Šiaulių kaimiškoji (Nr.45) vienmandatė apygarda,10,Verbūnų
 92,321,Šiaulių kaimiškoji (Nr.45) vienmandatė apygarda,1,Smilgių
-978,2371,Šiaulių kaimiškoji (Nr.45) vienmandatė apygarda,51,L. Ivinskio
+978,2371,Šiaulių kaimiškoji (Nr.45) vienmandatė apygarda,51,LIvinskio
 587,1310,Šiaulių kaimiškoji (Nr.45) vienmandatė apygarda,23,Centro
 1026,2846,Šiaulių kaimiškoji (Nr.45) vienmandatė apygarda,52,Gedimino
 637,1749,Šiaulių kaimiškoji (Nr.45) vienmandatė apygarda,40,Pušyno
@@ -1079,7 +1080,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 272,629,Kelmės (Nr.41) vienmandatė apygarda,9,Junkilų
 213,589,Kelmės (Nr.41) vienmandatė apygarda,6,Karklėnų
 1341,3376,Kelmės (Nr.41) vienmandatė apygarda,37,Centro
-1177,3395,Kelmės (Nr.41) vienmandatė apygarda,43,A.Mackevičiaus
+1177,3395,Kelmės (Nr.41) vienmandatė apygarda,43,AMackevičiaus
 889,2278,Kelmės (Nr.41) vienmandatė apygarda,22,Kalno
 146,328,Kelmės (Nr.41) vienmandatė apygarda,2,Kiaunorių
 281,485,Kelmės (Nr.41) vienmandatė apygarda,6,Kolainių
@@ -1108,7 +1109,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 158,414,Kelmės (Nr.41) vienmandatė apygarda,2,Šedbarų
 515,1098,Kelmės (Nr.41) vienmandatė apygarda,14,Durpyno
 670,1459,Kelmės (Nr.41) vienmandatė apygarda,39,Tytuvėnų
-341,746,Kelmės (Nr.41) vienmandatė apygarda,13,Užvenčio m.
+341,746,Kelmės (Nr.41) vienmandatė apygarda,13,Užvenčiom
 259,565,Kelmės (Nr.41) vienmandatė apygarda,1,Vaiguvos
 204,476,Kelmės (Nr.41) vienmandatė apygarda,3,Valpainių
 245,609,Kelmės (Nr.41) vienmandatė apygarda,12,Verpenos
@@ -1123,7 +1124,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 243,522,Telšių (Nr.40) vienmandatė apygarda,2,Kalno
 808,1904,Telšių (Nr.40) vienmandatė apygarda,13,Kęstučio
 829,1867,Telšių (Nr.40) vienmandatė apygarda,6,Sedos
-1260,2885,Telšių (Nr.40) vienmandatė apygarda,16,P.Cvirkos
+1260,2885,Telšių (Nr.40) vienmandatė apygarda,16,PCvirkos
 406,1029,Telšių (Nr.40) vienmandatė apygarda,6,Degaičių
 323,885,Telšių (Nr.40) vienmandatė apygarda,2,Eigirdžių
 362,1092,Telšių (Nr.40) vienmandatė apygarda,6,Buožėnų
@@ -1145,7 +1146,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 165,516,Telšių (Nr.40) vienmandatė apygarda,1,Vembūtų
 291,944,Telšių (Nr.40) vienmandatė apygarda,6,Rainių
 1376,2639,Akmenės - Joniškio (Nr.39) vienmandatė apygarda,26,Senamiesčio
-1018,2296,Akmenės - Joniškio (Nr.39) vienmandatė apygarda,32,V. Kudirkos
+1018,2296,Akmenės - Joniškio (Nr.39) vienmandatė apygarda,32,VKudirkos
 1021,2303,Akmenės - Joniškio (Nr.39) vienmandatė apygarda,17,Respublikos
 731,1836,Akmenės - Joniškio (Nr.39) vienmandatė apygarda,8,Ramučių
 1117,2455,Akmenės - Joniškio (Nr.39) vienmandatė apygarda,25,Žagarės
@@ -1174,7 +1175,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 595,1956,Akmenės - Joniškio (Nr.39) vienmandatė apygarda,12,Skaistgirio
 205,564,Akmenės - Joniškio (Nr.39) vienmandatė apygarda,2,Stungių
 182,552,Akmenės - Joniškio (Nr.39) vienmandatė apygarda,2,Stupurų
-1125,2742,Mažeikių (Nr.38) vienmandatė apygarda,35,M.Račkausko
+1125,2742,Mažeikių (Nr.38) vienmandatė apygarda,35,MRačkausko
 798,1920,Mažeikių (Nr.38) vienmandatė apygarda,39,Senamieščio
 714,1879,Mažeikių (Nr.38) vienmandatė apygarda,15,Kęstučio
 893,2381,Mažeikių (Nr.38) vienmandatė apygarda,27,Gabijos
@@ -1217,11 +1218,11 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 267,639,Skuodo  - Mažeikių (Nr.37) vienmandatė apygarda,12,Daukšių
 193,467,Skuodo  - Mažeikių (Nr.37) vienmandatė apygarda,9,Užlieknės
 166,418,Skuodo  - Mažeikių (Nr.37) vienmandatė apygarda,6,Buknaičių
-259,780,Skuodo  - Mažeikių (Nr.37) vienmandatė apygarda,8,D.Rūšupių
+259,780,Skuodo  - Mažeikių (Nr.37) vienmandatė apygarda,8,DRūšupių
 154,425,Skuodo  - Mažeikių (Nr.37) vienmandatė apygarda,12,Leckavos
 183,470,Skuodo  - Mažeikių (Nr.37) vienmandatė apygarda,12,Luknės
 160,442,Skuodo  - Mažeikių (Nr.37) vienmandatė apygarda,4,Auksūdžio
-158,393,Skuodo  - Mažeikių (Nr.37) vienmandatė apygarda, ,M.Rūšupių
+158,393,Skuodo  - Mažeikių (Nr.37) vienmandatė apygarda, ,MRūšupių
 147,280,Skuodo  - Mažeikių (Nr.37) vienmandatė apygarda,11,Dagių
 200,647,Skuodo  - Mažeikių (Nr.37) vienmandatė apygarda,3,Šačių
 168,466,Skuodo  - Mažeikių (Nr.37) vienmandatė apygarda,10,Renavo
@@ -1237,10 +1238,10 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 126,245,Skuodo  - Mažeikių (Nr.37) vienmandatė apygarda,5,Lūšės
 84,255,Skuodo  - Mažeikių (Nr.37) vienmandatė apygarda,1,Pievėnų
 432,1167,Kretingos (Nr.36) vienmandatė apygarda,32,Parko
-975,3164,Kretingos (Nr.36) vienmandatė apygarda,69,M.Daujoto
-1104,3942,Kretingos (Nr.36) vienmandatė apygarda,61,J.Pabrėžos
+975,3164,Kretingos (Nr.36) vienmandatė apygarda,69,MDaujoto
+1104,3942,Kretingos (Nr.36) vienmandatė apygarda,61,JPabrėžos
 699,2352,Kretingos (Nr.36) vienmandatė apygarda,42,Vytauto
-864,3220,Kretingos (Nr.36) vienmandatė apygarda,53,S.Daukanto
+864,3220,Kretingos (Nr.36) vienmandatė apygarda,53,SDaukanto
 818,2285,Kretingos (Nr.36) vienmandatė apygarda,68,Kretingos
 569,1423,Kretingos (Nr.36) vienmandatė apygarda,42,Salantų
 531,1633,Kretingos (Nr.36) vienmandatė apygarda,38,Darbėnų
@@ -1276,17 +1277,17 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 94,229,Kretingos (Nr.36) vienmandatė apygarda,3,Valėnų
 604,1853,Plungės - Rietavo (Nr.35) vienmandatė apygarda,22,Birutės
 200,385,Plungės - Rietavo (Nr.35) vienmandatė apygarda,8,Daugėdų
-485,1456,Plungės - Rietavo (Nr.35) vienmandatė apygarda,14,Dariaus ir Girėno
+485,1456,Plungės - Rietavo (Nr.35) vienmandatė apygarda,14,DariausirGirėno
 123,294,Plungės - Rietavo (Nr.35) vienmandatė apygarda,1,Giliogirio
-1250,3422,Plungės - Rietavo (Nr.35) vienmandatė apygarda,41,A.Jucio
+1250,3422,Plungės - Rietavo (Nr.35) vienmandatė apygarda,41,AJucio
 149,320,Plungės - Rietavo (Nr.35) vienmandatė apygarda,3,Labardžių
 1131,2896,Plungės - Rietavo (Nr.35) vienmandatė apygarda,29,Laisvės
 234,527,Plungės - Rietavo (Nr.35) vienmandatė apygarda,1,Medingėnų
 327,706,Plungės - Rietavo (Nr.35) vienmandatė apygarda,5,Pelaičių
-1100,2814,Plungės - Rietavo (Nr.35) vienmandatė apygarda,40,V.Mačernio
+1100,2814,Plungės - Rietavo (Nr.35) vienmandatė apygarda,40,VMačernio
 1155,2366,Plungės - Rietavo (Nr.35) vienmandatė apygarda,28,Rietavo
 899,2111,Plungės - Rietavo (Nr.35) vienmandatė apygarda,21,Senamiesčio
-996,2407,Plungės - Rietavo (Nr.35) vienmandatė apygarda,35,A.Vaišvilos
+996,2407,Plungės - Rietavo (Nr.35) vienmandatė apygarda,35,AVaišvilos
 562,1254,Plungės - Rietavo (Nr.35) vienmandatė apygarda,9,Sauslaukio
 211,430,Plungės - Rietavo (Nr.35) vienmandatė apygarda,1,Aleksandravo
 437,1242,Plungės - Rietavo (Nr.35) vienmandatė apygarda,6,Tverų
@@ -1308,13 +1309,13 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 244,647,Plungės - Rietavo (Nr.35) vienmandatė apygarda,3,Stanelių
 468,1124,Plungės - Rietavo (Nr.35) vienmandatė apygarda,7,Šateikių
 310,752,Plungės - Rietavo (Nr.35) vienmandatė apygarda,7,Truikių
-490,1163,Plungės - Rietavo (Nr.35) vienmandatė apygarda,15,Žemaičių Kalvarijos
+490,1163,Plungės - Rietavo (Nr.35) vienmandatė apygarda,15,ŽemaičiųKalvarijos
 304,665,Plungės - Rietavo (Nr.35) vienmandatė apygarda,4,Žlibinų
 268,745,Plungės - Rietavo (Nr.35) vienmandatė apygarda,8,Prūsalių
 1118,2844,Tauragės (Nr.34) vienmandatė apygarda,39,Prezidento
-1455,4194,Tauragės (Nr.34) vienmandatė apygarda,38,J.Tumo - Vaižganto
+1455,4194,Tauragės (Nr.34) vienmandatė apygarda,38,JTumo-Vaižganto
 647,1558,Tauragės (Nr.34) vienmandatė apygarda,18,Tauragės
-524,1504,Tauragės (Nr.34) vienmandatė apygarda,21,Dariaus ir Girėno
+524,1504,Tauragės (Nr.34) vienmandatė apygarda,21,DariausirGirėno
 1280,3626,Tauragės (Nr.34) vienmandatė apygarda,30,Aerodromo
 1211,3424,Tauragės (Nr.34) vienmandatė apygarda,44,Moksleivių
 1149,3448,Tauragės (Nr.34) vienmandatė apygarda,45,Laisvės
@@ -1347,7 +1348,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 1009,2696,Šilutės - Pagėgių (Nr.32) vienmandatė apygarda,15,Vidurinės
 272,778,Šilutės - Pagėgių (Nr.32) vienmandatė apygarda,17,Natkiškių
 829,2125,Šilutės - Pagėgių (Nr.32) vienmandatė apygarda,15,Politechnikos
-242,722,Šilutės - Pagėgių (Nr.32) vienmandatė apygarda,7,Pagėgių kaimiškoji
+242,722,Šilutės - Pagėgių (Nr.32) vienmandatė apygarda,7,Pagėgiųkaimiškoji
 1001,2850,Šilutės - Pagėgių (Nr.32) vienmandatė apygarda,21,Tilžės
 215,587,Šilutės - Pagėgių (Nr.32) vienmandatė apygarda,7,Piktupėnų
 599,1536,Šilutės - Pagėgių (Nr.32) vienmandatė apygarda,15,Rusnės
@@ -1404,9 +1405,9 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 310,819,Gargždų (Nr.31) vienmandatė apygarda,6,Slengių
 218,678,Gargždų (Nr.31) vienmandatė apygarda,7,Triušelių
 659,1574,Alytaus (Nr.30) vienmandatė apygarda,40,Amatų
-772,1837,Alytaus (Nr.30) vienmandatė apygarda,25,A.Ramanausko-Vanago 
+772,1837,Alytaus (Nr.30) vienmandatė apygarda,25,ARamanausko-Vanago
 693,1990,Alytaus (Nr.30) vienmandatė apygarda,32,Centro
-895,2750,Alytaus (Nr.30) vienmandatė apygarda,69,A.Matučio
+895,2750,Alytaus (Nr.30) vienmandatė apygarda,69,AMatučio
 673,1946,Alytaus (Nr.30) vienmandatė apygarda,61,Dzūkijos
 727,2083,Alytaus (Nr.30) vienmandatė apygarda,50,Naujoji
 575,1579,Alytaus (Nr.30) vienmandatė apygarda,29,Statybininkų
@@ -1430,7 +1431,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 827,2524,Marijampolės (Nr.29) vienmandatė apygarda,20,Suvalkiečių
 911,2754,Marijampolės (Nr.29) vienmandatė apygarda,20,Šaulių
 1005,2393,Marijampolės (Nr.29) vienmandatė apygarda,27,Kauno
-896,2085,Marijampolės (Nr.29) vienmandatė apygarda,29,Dariaus ir Girėno
+896,2085,Marijampolės (Nr.29) vienmandatė apygarda,29,DariausirGirėno
 739,2191,Marijampolės (Nr.29) vienmandatė apygarda,10,Beržų
 484,1061,Marijampolės (Nr.29) vienmandatė apygarda,31,Armino
 316,794,Marijampolės (Nr.29) vienmandatė apygarda,9,Gedimino
@@ -1450,7 +1451,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 907,2218,Aukštaitijos (Nr.28) vienmandatė apygarda,30,Ramygalos
 1022,2519,Aukštaitijos (Nr.28) vienmandatė apygarda,27,Vandentiekio
 176,423,Aukštaitijos (Nr.28) vienmandatė apygarda,4,Daniūnų
-1546,3178,Aukštaitijos (Nr.28) vienmandatė apygarda,83,J.Miltinio
+1546,3178,Aukštaitijos (Nr.28) vienmandatė apygarda,83,JMiltinio
 585,1151,Aukštaitijos (Nr.28) vienmandatė apygarda,19,Raguvos
 971,2924,Aukštaitijos (Nr.28) vienmandatė apygarda,43,Staniūnų
 161,323,Aukštaitijos (Nr.28) vienmandatė apygarda,15,Šilų
@@ -1476,10 +1477,10 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 1202,3351,Vakarinė (Nr.27) vienmandatė apygarda,22,Žvaigždžių
 1218,3293,Vakarinė (Nr.27) vienmandatė apygarda,22,Šermuto
 1340,3122,Vakarinė (Nr.27) vienmandatė apygarda,25,Parko
-1568,3508,Vakarinė (Nr.27) vienmandatė apygarda,26,Dariaus ir Girėno
-1202,3008,Vakarinė (Nr.27) vienmandatė apygarda,37,A. Lipniūno
+1568,3508,Vakarinė (Nr.27) vienmandatė apygarda,26,DariausirGirėno
+1202,3008,Vakarinė (Nr.27) vienmandatė apygarda,37,ALipniūno
 870,2356,Vakarinė (Nr.27) vienmandatė apygarda,16,Klaipėdos
-1262,2991,Vakarinė (Nr.27) vienmandatė apygarda,33,Butų ūkio
+1262,2991,Vakarinė (Nr.27) vienmandatė apygarda,33,Butųūkio
 1370,3048,Vakarinė (Nr.27) vienmandatė apygarda,27,Statybininkų
 1668,4647,Vakarinė (Nr.27) vienmandatė apygarda,34,Kniaudiškių
 1178,2970,Nevėžio (Nr.26) vienmandatė apygarda,37,Geležinkelio
@@ -1487,8 +1488,8 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 1139,3337,Nevėžio (Nr.26) vienmandatė apygarda,30,Šiaulių
 1138,2688,Nevėžio (Nr.26) vienmandatė apygarda,42,Vienybės
 1262,3297,Nevėžio (Nr.26) vienmandatė apygarda,39,Šermukšnių
-848,2304,Nevėžio (Nr.26) vienmandatė apygarda,26,V. Žemkalnio
-1274,2537,Nevėžio (Nr.26) vienmandatė apygarda,40,J.Balčikonio
+848,2304,Nevėžio (Nr.26) vienmandatė apygarda,26,VŽemkalnio
+1274,2537,Nevėžio (Nr.26) vienmandatė apygarda,40,JBalčikonio
 1035,2397,Nevėžio (Nr.26) vienmandatė apygarda,37,Laisvės
 1243,2536,Nevėžio (Nr.26) vienmandatė apygarda,49,Poliklinikos
 667,2221,Nevėžio (Nr.26) vienmandatė apygarda,25,Konservatorijos
@@ -1500,7 +1501,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 461,1180,Dainų (Nr.25) vienmandatė apygarda,22,Aukštelkės
 1270,3107,Dainų (Nr.25) vienmandatė apygarda,43,Gegužių
 1048,2808,Dainų (Nr.25) vienmandatė apygarda,37,Beržyno
-1118,2747,Dainų (Nr.25) vienmandatė apygarda,33,Senojo Bokšto
+1118,2747,Dainų (Nr.25) vienmandatė apygarda,33,SenojoBokšto
 1172,2741,Dainų (Nr.25) vienmandatė apygarda,42,Dainų
 951,2601,Dainų (Nr.25) vienmandatė apygarda,27,Aido
 1055,2780,Dainų (Nr.25) vienmandatė apygarda,25,Lyros
@@ -1508,28 +1509,28 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 1383,4035,Dainų (Nr.25) vienmandatė apygarda,35,Romuvos
 1701,4808,Dainų (Nr.25) vienmandatė apygarda,41,Šventupio
 1136,3167,Dainų (Nr.25) vienmandatė apygarda,12,Gytarių
-1689,3540,Saulės (Nr.24) vienmandatė apygarda,62,S.Šalkauskio
+1689,3540,Saulės (Nr.24) vienmandatė apygarda,62,SŠalkauskio
 1111,2876,Saulės (Nr.24) vienmandatė apygarda,35,Linkuvos
 1401,3577,Saulės (Nr.24) vienmandatė apygarda,33,Šimšės
 788,2475,Saulės (Nr.24) vienmandatė apygarda,22,Zoknių
 644,1656,Saulės (Nr.24) vienmandatė apygarda,31,Pabalių
-715,1873,Saulės (Nr.24) vienmandatė apygarda,19,K.Donelaičio
+715,1873,Saulės (Nr.24) vienmandatė apygarda,19,KDonelaičio
 1371,3368,Saulės (Nr.24) vienmandatė apygarda,40,Verduliukų
 1527,3900,Saulės (Nr.24) vienmandatė apygarda,45,Tilžės
 854,2295,Saulės (Nr.24) vienmandatė apygarda,16,Žaliūkių
-1029,2428,Saulės (Nr.24) vienmandatė apygarda,29,S.Dariaus ir S.Girėno
+1029,2428,Saulės (Nr.24) vienmandatė apygarda,29,SDariausirSGirėno
 1582,3753,Saulės (Nr.24) vienmandatė apygarda,49,Lieporių
 820,2303,Saulės (Nr.24) vienmandatė apygarda,17,Margių
 1722,4368,Aušros (Nr.23) vienmandatė apygarda,71,Medelyno
 968,2367,Aušros (Nr.23) vienmandatė apygarda,33,Purienų
-1050,3093,Aušros (Nr.23) vienmandatė apygarda,34,J.Basanavičiaus
-707,1693,Aušros (Nr.23) vienmandatė apygarda,18,M.K.Čiurlionio
-1040,2585,Aušros (Nr.23) vienmandatė apygarda,32,V.Kudirkos
+1050,3093,Aušros (Nr.23) vienmandatė apygarda,34,JBasanavičiaus
+707,1693,Aušros (Nr.23) vienmandatė apygarda,18,MKČiurlionio
+1040,2585,Aušros (Nr.23) vienmandatė apygarda,32,VKudirkos
 786,2475,Aušros (Nr.23) vienmandatė apygarda,37,Vijolių
 1652,3650,Aušros (Nr.23) vienmandatė apygarda,52,Jovaro
 874,1945,Aušros (Nr.23) vienmandatė apygarda,23,Parko
 1330,2976,Aušros (Nr.23) vienmandatė apygarda,43,Varpo
-1420,3288,Aušros (Nr.23) vienmandatė apygarda,57,J.Janonio
+1420,3288,Aušros (Nr.23) vienmandatė apygarda,57,JJanonio
 1201,2583,Aušros (Nr.23) vienmandatė apygarda,31,Kražių
 868,2136,Aušros (Nr.23) vienmandatė apygarda,35,Ragainės
 681,1509,Pajūrio (Nr.22) vienmandatė apygarda,20,Kaštonų
@@ -1559,7 +1560,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 1292,4378,Marių (Nr.21) vienmandatė apygarda,141,Berželio
 647,1997,Marių (Nr.21) vienmandatė apygarda,54,Volungėlės
 1364,4712,Marių (Nr.21) vienmandatė apygarda,139,Bandužių
-1832,4739,Baltijos (Nr.20) vienmandatė apygarda,55,Klaipėdos Vandens
+1832,4739,Baltijos (Nr.20) vienmandatė apygarda,55,KlaipėdosVandens
 694,1562,Baltijos (Nr.20) vienmandatė apygarda,23,Rumpiškių
 1407,3397,Baltijos (Nr.20) vienmandatė apygarda,37,Aitvaro
 809,2107,Baltijos (Nr.20) vienmandatė apygarda,31,Brigantinos
@@ -1573,14 +1574,14 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 1268,3296,Baltijos (Nr.20) vienmandatė apygarda,29,Gedminų
 941,2310,Baltijos (Nr.20) vienmandatė apygarda,27,Vėtrungės
 702,1868,Baltijos (Nr.20) vienmandatė apygarda,29,Žilvičio
-853,2222,Baltijos (Nr.20) vienmandatė apygarda,26,Menų mokyklos
+853,2222,Baltijos (Nr.20) vienmandatė apygarda,26,Menųmokyklos
 1350,3097,Danės (Nr.19) vienmandatė apygarda,48,Gimnazijos
 625,1285,Danės (Nr.19) vienmandatė apygarda,24,Danės
 843,2009,Danės (Nr.19) vienmandatė apygarda,17,Eglės
-1238,3041,Danės (Nr.19) vienmandatė apygarda,27,Dviračių Treko
+1238,3041,Danės (Nr.19) vienmandatė apygarda,27,DviračiųTreko
 838,2063,Danės (Nr.19) vienmandatė apygarda,28,Kretingos
 1149,2640,Danės (Nr.19) vienmandatė apygarda,34,Šviesos
-428,986,Danės (Nr.19) vienmandatė apygarda,13,Muzikos Centro
+428,986,Danės (Nr.19) vienmandatė apygarda,13,MuzikosCentro
 564,1404,Danės (Nr.19) vienmandatė apygarda,11,Žaliakalnio
 893,3577,Danės (Nr.19) vienmandatė apygarda,17,Saulutės
 569,1404,Danės (Nr.19) vienmandatė apygarda,16,Tauralaukio
@@ -1593,8 +1594,8 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 160,366,Danės (Nr.19) vienmandatė apygarda,4,Girulių
 462,1036,Danės (Nr.19) vienmandatė apygarda,12,Molo
 718,1133,Danės (Nr.19) vienmandatė apygarda,73,Jūreivių
-1278,3451,Danės (Nr.19) vienmandatė apygarda,39,Prekybos uosto
-504,1337,Danės (Nr.19) vienmandatė apygarda,15,S.Daukanto
+1278,3451,Danės (Nr.19) vienmandatė apygarda,39,Prekybosuosto
+504,1337,Danės (Nr.19) vienmandatė apygarda,15,SDaukanto
 470,1199,Danės (Nr.19) vienmandatė apygarda,14,Kuršių
 626,1617,Danės (Nr.19) vienmandatė apygarda,20,Politechnikos
 840,2042,Panemunės (Nr.18) vienmandatė apygarda,20,Sodų
@@ -1611,7 +1612,7 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 834,1779,Panemunės (Nr.18) vienmandatė apygarda,28,Birutės
 914,2594,Panemunės (Nr.18) vienmandatė apygarda,21,Rokų
 791,2058,Panemunės (Nr.18) vienmandatė apygarda,15,Vaišvydavos
-1154,2654,Pramonės (Nr.17) vienmandatė apygarda,28,V. Krėvės
+1154,2654,Pramonės (Nr.17) vienmandatė apygarda,28,VKrėvės
 1070,2641,Pramonės (Nr.17) vienmandatė apygarda,26,Specialistų
 1236,3072,Pramonės (Nr.17) vienmandatė apygarda,21,Taikos
 1300,2693,Pramonės (Nr.17) vienmandatė apygarda,26,Vyturio
@@ -1627,23 +1628,23 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 1785,3817,Dainavos (Nr.16) vienmandatė apygarda,33,Partizanų
 977,2694,Dainavos (Nr.16) vienmandatė apygarda,15,Pramonės
 1554,3619,Dainavos (Nr.16) vienmandatė apygarda,47,Dainavos
-1089,2567,Dainavos (Nr.16) vienmandatė apygarda,21,J. Urbšio
+1089,2567,Dainavos (Nr.16) vienmandatė apygarda,21,JUrbšio
 1499,3149,Dainavos (Nr.16) vienmandatė apygarda,31,Sartų
-1315,2895,Dainavos (Nr.16) vienmandatė apygarda,21,A. Timinskio
+1315,2895,Dainavos (Nr.16) vienmandatė apygarda,21,ATiminskio
 1156,2516,Dainavos (Nr.16) vienmandatė apygarda,20,Nepriklausomybės
 1799,4040,Dainavos (Nr.16) vienmandatė apygarda,44,Vytauto
 1836,4046,Dainavos (Nr.16) vienmandatė apygarda,38,Atžalyno
 1640,3978,Kalniečių (Nr.15) vienmandatė apygarda,38,Aukuro
 1657,3840,Kalniečių (Nr.15) vienmandatė apygarda,27,Šiaurės
-1807,4299,Kalniečių (Nr.15) vienmandatė apygarda,42,S. Žukausko
+1807,4299,Kalniečių (Nr.15) vienmandatė apygarda,42,SŽukausko
 1959,4461,Kalniečių (Nr.15) vienmandatė apygarda,42,Statybininkų
 1027,2296,Kalniečių (Nr.15) vienmandatė apygarda,19,Rasos
-2036,4295,Kalniečių (Nr.15) vienmandatė apygarda,46,P. Plechavičiaus
-1941,4447,Kalniečių (Nr.15) vienmandatė apygarda,48,K. Škirpos
-2052,4588,Kalniečių (Nr.15) vienmandatė apygarda,51,P. Lukšio
+2036,4295,Kalniečių (Nr.15) vienmandatė apygarda,46,PPlechavičiaus
+1941,4447,Kalniečių (Nr.15) vienmandatė apygarda,48,KŠkirpos
+2052,4588,Kalniečių (Nr.15) vienmandatė apygarda,51,PLukšio
 560,1455,Žaliakalnio (Nr.14) vienmandatė apygarda,7,Jonavos
 642,1390,Žaliakalnio (Nr.14) vienmandatė apygarda,26,Saulės
-1293,2646,Žaliakalnio (Nr.14) vienmandatė apygarda,37,L. Karsavino
+1293,2646,Žaliakalnio (Nr.14) vienmandatė apygarda,37,LKarsavino
 638,1380,Žaliakalnio (Nr.14) vienmandatė apygarda,17,Tvirtovės
 900,1758,Žaliakalnio (Nr.14) vienmandatė apygarda,24,Algirdo
 504,1058,Žaliakalnio (Nr.14) vienmandatė apygarda,7,Sukilėlių
@@ -1653,19 +1654,19 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 150,397,Žaliakalnio (Nr.14) vienmandatė apygarda,7,Linelio
 1262,3104,Žaliakalnio (Nr.14) vienmandatė apygarda,32,Versmės
 1910,4370,Žaliakalnio (Nr.14) vienmandatė apygarda,55,Gerovės
-1377,2909,Žaliakalnio (Nr.14) vienmandatė apygarda,27,M. Jankaus
-1181,2501,Žaliakalnio (Nr.14) vienmandatė apygarda,34,S. Nėries
+1377,2909,Žaliakalnio (Nr.14) vienmandatė apygarda,27,MJankaus
+1181,2501,Žaliakalnio (Nr.14) vienmandatė apygarda,34,SNėries
 789,1927,Žaliakalnio (Nr.14) vienmandatė apygarda,24,Vaidilutės
 946,2140,Centro (Nr.13) vienmandatė apygarda,22,Tekstilininkų
 926,2223,Centro (Nr.13) vienmandatė apygarda,40,Maironio
-541,1329,Centro (Nr.13) vienmandatė apygarda,16,A. Mackevičiaus
+541,1329,Centro (Nr.13) vienmandatė apygarda,16,AMackevičiaus
 642,1453,Centro (Nr.13) vienmandatė apygarda,22,Varpo
 1407,2807,Centro (Nr.13) vienmandatė apygarda,47,Ryšių
 1074,2305,Centro (Nr.13) vienmandatė apygarda,44,Radvilėnų
-185,335,Centro (Nr.13) vienmandatė apygarda,6,A. Baranausko
-999,2001,Centro (Nr.13) vienmandatė apygarda,26,J. Jablonskio
+185,335,Centro (Nr.13) vienmandatė apygarda,6,ABaranausko
+999,2001,Centro (Nr.13) vienmandatė apygarda,26,JJablonskio
 1267,2825,Centro (Nr.13) vienmandatė apygarda,41,Aušros
-642,1369,Centro (Nr.13) vienmandatė apygarda,24,Senojo tresto
+642,1369,Centro (Nr.13) vienmandatė apygarda,24,Senojotresto
 1079,2373,Centro (Nr.13) vienmandatė apygarda,26,Gedimino
 503,1058,Centro (Nr.13) vienmandatė apygarda,19,Sporto
 1680,3698,Centro (Nr.13) vienmandatė apygarda,86,Miško
@@ -1682,8 +1683,8 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 239,501,Aleksoto -  Vilijampolės (Nr.12) vienmandatė apygarda,5,Lampėdžių
 388,813,Aleksoto -  Vilijampolės (Nr.12) vienmandatė apygarda,7,Kaniūkų
 640,1660,Aleksoto -  Vilijampolės (Nr.12) vienmandatė apygarda,13,Akademijos
-315,1101,Aleksoto -  Vilijampolės (Nr.12) vienmandatė apygarda,9,H. ir O Minkovskių
-1285,3627,Aleksoto -  Vilijampolės (Nr.12) vienmandatė apygarda,43,J. Dobkevičiaus
+315,1101,Aleksoto -  Vilijampolės (Nr.12) vienmandatė apygarda,9,HirOMinkovskių
+1285,3627,Aleksoto -  Vilijampolės (Nr.12) vienmandatė apygarda,43,JDobkevičiaus
 642,1904,Aleksoto -  Vilijampolės (Nr.12) vienmandatė apygarda,12,Veiverių
 1921,4867,Aleksoto -  Vilijampolės (Nr.12) vienmandatė apygarda,56,Julijanavos
 538,1372,Aleksoto -  Vilijampolės (Nr.12) vienmandatė apygarda,11,Piliakalnio
@@ -1705,32 +1706,32 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 1168,2355,Šilainių (Nr.11) vienmandatė apygarda,39,Demokratų
 1540,3256,Šilainių (Nr.11) vienmandatė apygarda,48,Linkuvos
 323,1462,Naujosios Vilnios (Nr.10) vienmandatė apygarda,9,Salininkų
-632,2049,Naujosios Vilnios (Nr.10) vienmandatė apygarda,21,Lietuvių namų
+632,2049,Naujosios Vilnios (Nr.10) vienmandatė apygarda,21,Lietuviųnamų
 527,1514,Naujosios Vilnios (Nr.10) vienmandatė apygarda,15,Dzūkų
 560,1532,Naujosios Vilnios (Nr.10) vienmandatė apygarda,11,Kapsų
-786,2152,Naujosios Vilnios (Nr.10) vienmandatė apygarda,24,Dariaus ir Girėno
+786,2152,Naujosios Vilnios (Nr.10) vienmandatė apygarda,24,DariausirGirėno
 868,2658,Naujosios Vilnios (Nr.10) vienmandatė apygarda,23,Kaminkelio
 403,1777,Naujosios Vilnios (Nr.10) vienmandatė apygarda,17,Kirtimų
 589,1989,Naujosios Vilnios (Nr.10) vienmandatė apygarda,15,Palydovo
 501,2263,Naujosios Vilnios (Nr.10) vienmandatė apygarda,16,Rugiagėlių
-409,1569,Naujosios Vilnios (Nr.10) vienmandatė apygarda,10,A.Kojelavičiaus
+409,1569,Naujosios Vilnios (Nr.10) vienmandatė apygarda,10,AKojelavičiaus
 713,1991,Naujosios Vilnios (Nr.10) vienmandatė apygarda,14,Genių
 1138,3176,Naujosios Vilnios (Nr.10) vienmandatė apygarda,29,Pergalės
 782,2247,Naujosios Vilnios (Nr.10) vienmandatė apygarda,11,Darželio
 916,2856,Naujosios Vilnios (Nr.10) vienmandatė apygarda,22,Karklėnų
-1033,3105,Naujosios Vilnios (Nr.10) vienmandatė apygarda,22,J.Kolaso
+1033,3105,Naujosios Vilnios (Nr.10) vienmandatė apygarda,22,JKolaso
 1274,3922,Naujosios Vilnios (Nr.10) vienmandatė apygarda,27,Parko
 330,1462,Naujosios Vilnios (Nr.10) vienmandatė apygarda,2,Pramonės
-831,2235,Lazdynų (Nr.9) vienmandatė apygarda,18,Trakų Vokės
+831,2235,Lazdynų (Nr.9) vienmandatė apygarda,18,TrakųVokės
 461,1754,Lazdynų (Nr.9) vienmandatė apygarda,13,Liudvinavo
 1226,2776,Lazdynų (Nr.9) vienmandatė apygarda,27,Vingio
-950,2736,Lazdynų (Nr.9) vienmandatė apygarda,28,Geležinio Vilko
+950,2736,Lazdynų (Nr.9) vienmandatė apygarda,28,GeležinioVilko
 1414,3086,Lazdynų (Nr.9) vienmandatė apygarda,29,Gluosnių
 1595,3983,Lazdynų (Nr.9) vienmandatė apygarda,34,Skroblų
 754,2019,Lazdynų (Nr.9) vienmandatė apygarda,12,Mados
 1102,2159,Lazdynų (Nr.9) vienmandatė apygarda,29,Riešuto
 1375,3888,Lazdynų (Nr.9) vienmandatė apygarda,15,Titnago
-543,1860,Lazdynų (Nr.9) vienmandatė apygarda,12,Aukštųjų Panerių
+543,1860,Lazdynų (Nr.9) vienmandatė apygarda,12,AukštųjųPanerių
 1658,3559,Lazdynų (Nr.9) vienmandatė apygarda,31,Bukčių
 1458,2838,Lazdynų (Nr.9) vienmandatė apygarda,32,Akacijų
 1725,3412,Lazdynų (Nr.9) vienmandatė apygarda,24,Oslo
@@ -1738,26 +1739,26 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 1383,2642,Lazdynų (Nr.9) vienmandatė apygarda,32,Paparčio
 2176,4817,Karoliniškių (Nr.8) vienmandatė apygarda,41,Papilėnų
 1433,3134,Karoliniškių (Nr.8) vienmandatė apygarda,37,Tujų
-1811,3487,Karoliniškių (Nr.8) vienmandatė apygarda,46,Sausio 13-osios
+1811,3487,Karoliniškių (Nr.8) vienmandatė apygarda,46,Sausio-osios
 1804,3548,Karoliniškių (Nr.8) vienmandatė apygarda,55,Bokšto
-801,1460,Karoliniškių (Nr.8) vienmandatė apygarda,23,L.Asanavičiūtės
-1043,1963,Karoliniškių (Nr.8) vienmandatė apygarda,26,V.Maciulevičiaus
-843,1721,Karoliniškių (Nr.8) vienmandatė apygarda,22,V.Druskio
+801,1460,Karoliniškių (Nr.8) vienmandatė apygarda,23,LAsanavičiūtės
+1043,1963,Karoliniškių (Nr.8) vienmandatė apygarda,26,VMaciulevičiaus
+843,1721,Karoliniškių (Nr.8) vienmandatė apygarda,22,VDruskio
 757,1617,Karoliniškių (Nr.8) vienmandatė apygarda,28,Dovanos
-689,1377,Karoliniškių (Nr.8) vienmandatė apygarda,17,R.Jankausko
-866,1751,Karoliniškių (Nr.8) vienmandatė apygarda,17,A.J.Povilaičio
-868,1817,Karoliniškių (Nr.8) vienmandatė apygarda,17,A.P.Kavoliuko
+689,1377,Karoliniškių (Nr.8) vienmandatė apygarda,17,RJankausko
+866,1751,Karoliniškių (Nr.8) vienmandatė apygarda,17,AJPovilaičio
+868,1817,Karoliniškių (Nr.8) vienmandatė apygarda,17,APKavoliuko
 834,1615,Karoliniškių (Nr.8) vienmandatė apygarda,19,Poliklinikos
 971,1866,Karoliniškių (Nr.8) vienmandatė apygarda,32,Merkurijaus
 912,1981,Karoliniškių (Nr.8) vienmandatė apygarda,13,Laisvės
-851,1752,Karoliniškių (Nr.8) vienmandatė apygarda,24,I.Šimulionio
-862,1676,Karoliniškių (Nr.8) vienmandatė apygarda,13,V.Vaitkaus
+851,1752,Karoliniškių (Nr.8) vienmandatė apygarda,24,IŠimulionio
+862,1676,Karoliniškių (Nr.8) vienmandatė apygarda,13,VVaitkaus
 1005,2006,Karoliniškių (Nr.8) vienmandatė apygarda,30,Saturno
-741,1565,Karoliniškių (Nr.8) vienmandatė apygarda,16,D.Gerbutavičiaus
+741,1565,Karoliniškių (Nr.8) vienmandatė apygarda,16,DGerbutavičiaus
 930,2304,Karoliniškių (Nr.8) vienmandatė apygarda,21,Pilaitės
 1519,4040,Justiniškių (Nr.7) vienmandatė apygarda,37,Transporto
 1861,4346,Justiniškių (Nr.7) vienmandatė apygarda,42,Taikos
-1564,3979,Justiniškių (Nr.7) vienmandatė apygarda,21,M.Biržiškos
+1564,3979,Justiniškių (Nr.7) vienmandatė apygarda,21,MBiržiškos
 1709,4132,Justiniškių (Nr.7) vienmandatė apygarda,35,Justiniškių
 1465,3736,Justiniškių (Nr.7) vienmandatė apygarda,28,Statybininkų
 1445,3556,Justiniškių (Nr.7) vienmandatė apygarda,42,Sietuvos
@@ -1781,10 +1782,10 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 1877,5278,Fabijoniškių (Nr.5) vienmandatė apygarda,254,Gabijos
 1453,4236,Fabijoniškių (Nr.5) vienmandatė apygarda,166,Fabijoniškių
 1561,4094,Fabijoniškių (Nr.5) vienmandatė apygarda,194,Jovaro
-1060,2834,Fabijoniškių (Nr.5) vienmandatė apygarda,105,S.Stanevičiaus
+1060,2834,Fabijoniškių (Nr.5) vienmandatė apygarda,105,SStanevičiaus
 1030,2825,Fabijoniškių (Nr.5) vienmandatė apygarda,114,Kaimelio
-1836,4901,Fabijoniškių (Nr.5) vienmandatė apygarda,158,L.Giros
-1414,4100,Fabijoniškių (Nr.5) vienmandatė apygarda,155,P.Žadeikos
+1836,4901,Fabijoniškių (Nr.5) vienmandatė apygarda,158,LGiros
+1414,4100,Fabijoniškių (Nr.5) vienmandatė apygarda,155,PŽadeikos
 1860,4651,Fabijoniškių (Nr.5) vienmandatė apygarda,225,Gedvydžių
 1678,3808,Fabijoniškių (Nr.5) vienmandatė apygarda,114,Rugių
 1886,4674,Žirmūnų (Nr.4) vienmandatė apygarda,152,Muitininkų
@@ -1806,15 +1807,15 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 785,2134,Žirmūnų (Nr.4) vienmandatė apygarda,170,Kalvarijų
 1084,2572,Antakalnio (Nr.3) vienmandatė apygarda,28,Filaretų
 440,890,Antakalnio (Nr.3) vienmandatė apygarda,9,Olandų
-1159,2193,Antakalnio (Nr.3) vienmandatė apygarda,32,P.Rimšos
-1051,1973,Antakalnio (Nr.3) vienmandatė apygarda,18,L.Sapiegos
+1159,2193,Antakalnio (Nr.3) vienmandatė apygarda,32,PRimšos
+1051,1973,Antakalnio (Nr.3) vienmandatė apygarda,18,LSapiegos
 1592,2926,Antakalnio (Nr.3) vienmandatė apygarda,43,Šilo
-880,1784,Antakalnio (Nr.3) vienmandatė apygarda,24,P.Vileišio
+880,1784,Antakalnio (Nr.3) vienmandatė apygarda,24,PVileišio
 1042,1856,Antakalnio (Nr.3) vienmandatė apygarda,30,Antakalnio
 921,2178,Antakalnio (Nr.3) vienmandatė apygarda,12,Žolyno
 664,1470,Antakalnio (Nr.3) vienmandatė apygarda,17,Švyturio
-866,1516,Antakalnio (Nr.3) vienmandatė apygarda,27,A.Daukšos
-1387,2479,Antakalnio (Nr.3) vienmandatė apygarda,40,B.Sruogos
+866,1516,Antakalnio (Nr.3) vienmandatė apygarda,27,ADaukšos
+1387,2479,Antakalnio (Nr.3) vienmandatė apygarda,40,BSruogos
 1483,3880,Antakalnio (Nr.3) vienmandatė apygarda,22,Saulėtekio
 347,1065,Antakalnio (Nr.3) vienmandatė apygarda,18,Subačiaus
 579,1810,Antakalnio (Nr.3) vienmandatė apygarda,10,Markučių
@@ -1827,15 +1828,15 @@ dalyvavo,rinkeju_skaicius,apygarda,negaliojantys_biuleteniai,apylinke
 1659,4329,Antakalnio (Nr.3) vienmandatė apygarda,30,Popieriaus
 448,1066,Senamiesčio (Nr.2) vienmandatė apygarda,36,Dailės
 976,2394,Senamiesčio (Nr.2) vienmandatė apygarda,118,Užupio
-1030,2792,Senamiesčio (Nr.2) vienmandatė apygarda,119,A.Juozapavičiaus
+1030,2792,Senamiesčio (Nr.2) vienmandatė apygarda,119,AJuozapavičiaus
 1279,3241,Senamiesčio (Nr.2) vienmandatė apygarda,206,Didlaukio
 762,2710,Senamiesčio (Nr.2) vienmandatė apygarda,139,Licėjaus
 1041,3021,Senamiesčio (Nr.2) vienmandatė apygarda,171,Senvagės
 1145,3599,Senamiesčio (Nr.2) vienmandatė apygarda,153,Žalgirio
-656,2353,Senamiesčio (Nr.2) vienmandatė apygarda,102,V.Sirokomlės
-765,2024,Senamiesčio (Nr.2) vienmandatė apygarda,78,S.Nėries
+656,2353,Senamiesčio (Nr.2) vienmandatė apygarda,102,VSirokomlės
+765,2024,Senamiesčio (Nr.2) vienmandatė apygarda,78,SNėries
 1041,2651,Senamiesčio (Nr.2) vienmandatė apygarda,119,Naugarduko
-817,1993,Senamiesčio (Nr.2) vienmandatė apygarda,85,A.Vienuolio
-1284,4103,Senamiesčio (Nr.2) vienmandatė apygarda,255,M.Daukšos
-751,2444,Senamiesčio (Nr.2) vienmandatė apygarda,106,V.Šopeno
+817,1993,Senamiesčio (Nr.2) vienmandatė apygarda,85,AVienuolio
+1284,4103,Senamiesčio (Nr.2) vienmandatė apygarda,255,MDaukšos
+751,2444,Senamiesčio (Nr.2) vienmandatė apygarda,106,VŠopeno
 1128,3449,Senamiesčio (Nr.2) vienmandatė apygarda,139,Baltupių
