@@ -28,8 +28,14 @@ Seimo rinkimų rezultatai.
 [4]: http://www.vrk.lt/2012_seimo_rinkimai/output_lt/rezultatai_daugiamand_apygardose/apygardos_rezultatai7213.html
 [5]: http://www.vrk.lt/2012_seimo_rinkimai/output_lt/rezultatai_daugiamand_apygardose/rezultatai_daugiamand_apygardose1turas.html
 
+**Pastabos**
+
+   + 2000 m. antro turo nebuvo.
+
 
 **Žinomos klaidos**
+
+
 vienmandate2004_2_kandidatorezultaiapygardojeitem.csv
 
    + **FIXED** http://www3.lrs.lt/rinkimai/2004/seimas/rezultatai/rezv_apg_l_1603_2.htm - tik po vien kandidata apygardoje yra? Fix: td/a/text
