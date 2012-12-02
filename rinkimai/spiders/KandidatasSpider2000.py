@@ -4,6 +4,7 @@ from scrapy.contrib.spiders import CrawlSpider, Rule
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.selector import HtmlXPathSelector
 from rinkimai.items import KandidatasItem
+from rinkimai.items import KandidatoDeklaracija 
 import re
 
 class KandidatasSpider(CrawlSpider):
@@ -16,6 +17,14 @@ class KandidatasSpider(CrawlSpider):
 
 	def parse_kandidatas(self,response):
 		hxs = HtmlXPathSelector(response)
+		item = KandidatoDeklaracija()
+		item['turtas'] = float(hxs.select("//table")[3].select('tr')[1].select('td/b/text()')[2].extract().replace(' Lt',''))
+		item['kandidatas'] = hxs.select("//p/font/b/text()").extract()[0].encode('UTF8')
+		item['gautos_pajamos'] = float(hxs.select("//table")[2].select('tr')[2].select('td/b/text()')[0].extract().replace(' Lt',''))
+		item['mokesciai'] = float(hxs.select("//table")[2].select('tr')[2].select('td/b/text()')[1].extract().replace(' Lt',''))
+
+		yield item
+		"""
 		item = KandidatasItem()
 		item['kandidatas'] = hxs.select("//p/font/b/text()").extract()[0].encode('UTF8')
 		p=hxs.select("//table/tr[@valign='bottom']/td/p/b/text()").extract()
@@ -24,11 +33,9 @@ class KandidatasSpider(CrawlSpider):
 			if i.encode('UTF8').find('Išsikėlė')>-1:		
 
 				item['apygarda'] = (hxs.select("//table/tr[@valign='bottom']/td/p")).select('b/a/text()')[0].extract().encode('UTF8')
-				item['iskele'] =i.encode('UTF8')# (hxs.select("//table/tr[@valign='bottom']/td/p/b/text()"))[1].extract().encode('UTF8')#(hxs.select("//table/tr[@valign='bottom']/td/p")).select('b/text()')[3].extract().encode('UTF8')
-				issikele = True
+				item['iskele'] =i.encode('UTF8')				issikele = True
 				break
 		if issikele == False:
-			#if (hxs.select("//table/tr[@valign='bottom']/td/p")).select('b/a/text()')[0].extract().encode('UTF8')=='Daugiamandatė':
 			if (hxs.select("//table/tr[@valign='bottom']/td/p")).select('b')[0].extract().encode('UTF8').find('Daugiamandatė')>-1:
 				p=(hxs.select("//table/tr[@valign='bottom']/td/p"))[1:]
 				for i in p:
@@ -38,7 +45,6 @@ class KandidatasSpider(CrawlSpider):
 					if i.extract().encode('UTF8').find('Iškėlė')>-1:
 						item['iskele'] = i.select('b/a/text()')[1].extract().encode('UTF8')
 		
-#				item['apygarda'] = (hxs.select("//table/tr[@valign='bottom']/td/p"))[1].select('b/a/text()')[1].extract().encode('UTF8')#(hxs.select("//table/tr[@valign='bottom']/td/p")).select('b/a/text()')[2].extract().encode('UTF8')
 			else:
 				item['apygarda'] = (hxs.select("//table/tr[@valign='bottom']/td/p")).select('b/a/text()')[0].extract().encode('UTF8')		
 				item['iskele'] = hxs.select("//table/tr/td/p/b/a/text()")[1].extract().encode('UTF8')
@@ -67,3 +73,4 @@ class KandidatasSpider(CrawlSpider):
 		item['pripazintas_kaltu']=(hxs.select("//p/font"))[1].select('b/text()')[5].extract().encode('UTF8')
 
 		yield item
+		"""

@@ -9,6 +9,7 @@ Seimo rinkimų rezultatai.
    * 1996 - DONE
    * pataisyti failų pavadinimus - DONE
    * kandidatu deklaracijos
+      + 2000 - DONE
    * išrinkti Seimo nariai
 
 **Failų aprašymas**
@@ -17,6 +18,7 @@ Seimo rinkimų rezultatai.
    + vienmandate20XX_kandidatorezultaiapygardojeitem.csv - pvz. ["Balsavimo rezultatai apygardoje"][1] 
    + vienmandate20XX_kandidatorezultaiapylinkejeitem.csv - pvz. ["Balsavimo rezultatai rinkimų apylinkėje"][2]
    + kandidatasXXXX_kandidatasitem.csv - aprašymas ["Kandidato biografija"][3]
+   + kandidatas2000_kandidatodeklaracija.csv - turto deklaracija - pvz. [gyventojų turto ir pajamų deklaracijos pagrindinių duomenų išrašas][6]
    + daugiamandate20XX_daugiamandatesrezultataiapylinkejeitem - [daugiamandatės rez. apylinkėse][4]
    + daugiamandate20XX_daugiamandatesrezultataiapygardojeitem - [daugiamandatės rez. apygardose][5]
    
@@ -27,7 +29,7 @@ Seimo rinkimų rezultatai.
 [3]: http://www.vrk.lt/rinkimai/416_lt/Kandidatai/Kandidatas67066/Kandidato67066Anketa.html
 [4]: http://www.vrk.lt/2012_seimo_rinkimai/output_lt/rezultatai_daugiamand_apygardose/apygardos_rezultatai7213.html
 [5]: http://www.vrk.lt/2012_seimo_rinkimai/output_lt/rezultatai_daugiamand_apygardose/rezultatai_daugiamand_apygardose1turas.html
-
+[6]: http://www3.lrs.lt/n/rinkimai/20001008/kandvl.htm-143962.htm
 **Pastabos**
 
    + 2000 m. antro turo nebuvo.

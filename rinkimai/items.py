@@ -79,3 +79,13 @@ class KandidatasItem(Item):
 	pripazintas_kaltu = Field()
 	sunkus_nusikaltimas = Field()
 	pass
+class KandidatoDeklaracija(Item):
+	kandidatas = Field()
+	turtas = Field()
+	vertybiniai_popieriai = Field()
+	gryni_pinigai = Field()
+	suteiktos_paskolos=Field()
+	gautos_paskolos = Field()
+	gautos_pajamos = Field()
+	mokesciai = Field()
+	pass
