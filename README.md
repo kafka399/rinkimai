@@ -34,7 +34,9 @@ Seimo rinkimų rezultatai.
 
 
 **Žinomos klaidos**
+kandidatas2000_kandidatasitem.csv
 
+   + sunkus_nusikaltimas stulpelyje viena bloga reiksme
 
 vienmandate2004_2_kandidatorezultaiapygardojeitem.csv
 
