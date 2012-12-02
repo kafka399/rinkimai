@@ -6,8 +6,8 @@ from scrapy.selector import HtmlXPathSelector
 from rinkimai.items import KandidatasItem
 import re
 
-class KandidatasVienmandateSpider(CrawlSpider):
-        name = "kandidatas"
+class KandidatasSpider(CrawlSpider):
+        name = "kandidatas2012"
         allowed_domains = ["www.vrk.lt"]
 	start_urls = ["http://www.vrk.lt/rinkimai/416_lt/Kandidatai/"]
 	rules =[Rule(SgmlLinkExtractor(allow=['/Kandidatai/Kandidatas'],deny=['output_en']), 'parse_kandidatas', follow=False),
