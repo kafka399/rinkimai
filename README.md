@@ -8,11 +8,15 @@ Seimo rinkimų rezultatai.
    * 2000 - DONE
    * 1996 - DONE
    * pataisyti failų pavadinimus - DONE
-   * kandidatu deklaracijos
+   * kandidatu deklaracijos - DONE
+      + 1996 - DONE      
       + 2000 - DONE
       + 2004 - DONE
       + 2008 - DONE
       + 2012 - DONE
+   * kandidatu anketos
+      + vienmandates
+      + daugiamandates
    * išrinkti Seimo nariai
 
 **Failų aprašymas**
