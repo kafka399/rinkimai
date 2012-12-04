@@ -9,11 +9,11 @@ import re
 class KandidatoDeklaracijaSpider(CrawlSpider):
         name = "kandidatoDeklaracija2004"
         allowed_domains = ["www3.lrs.lt"]
-	start_urls = ["http://www3.lrs.lt/rinkimai/2004/seimas/kandidatai/vapg_sar_l_20.htm"]
+	start_urls = ["http://www3.lrs.lt/rinkimai/2004/seimas/kandidatai/part_sar_l_20.htm","http://www3.lrs.lt/rinkimai/2004/seimas/kandidatai/vapg_sar_l_20.htm"]
         rules =[Rule(SgmlLinkExtractor(allow=['apg_kand_l_'],deny=['output_en']), follow=True),
                 Rule(SgmlLinkExtractor(allow=['kandidatai/kand_anketa_l_' ]) ,follow=True),
-		Rule(SgmlLinkExtractor(allow=['kand_pajam_l_' ]),'parse_deklaracija' ,follow=False)
-
+		Rule(SgmlLinkExtractor(allow=['kand_pajam_l_' ]),'parse_deklaracija' ,follow=False),
+		Rule(SgmlLinkExtractor(allow=['kand_part_l_' ]) ,follow=True)
                         ]
 
         def parse_deklaracija(self,response):

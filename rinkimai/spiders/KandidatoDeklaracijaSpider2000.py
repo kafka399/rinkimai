@@ -11,9 +11,10 @@ class KandidatoDeklaracijaSpider(CrawlSpider):
         name = "kandidatoDeklaracija2000"
 
         allowed_domains = ["www3.lrs.lt"]
-        start_urls = ["http://www3.lrs.lt/n/rinkimai/20001008/kandapgsarl.htm-13.htm"]
+	start_urls = ["http://www3.lrs.lt/n/rinkimai/20001008/partsarl.htm-13.htm","http://www3.lrs.lt/n/rinkimai/20001008/kandapgsarl.htm-13.htm"]
         rules =[Rule(SgmlLinkExtractor(allow=['kandvl.htm']), 'parse_kandidatas', follow=False),
-                Rule(SgmlLinkExtractor(allow=['kandapgl.htm' ]) ,follow=True)
+                Rule(SgmlLinkExtractor(allow=['kandapgl.htm' ]) ,follow=True),
+		Rule(SgmlLinkExtractor(allow=['kandpartl.htm' ]) ,follow=True)
                         ]
 
         def parse_kandidatas(self,response):
