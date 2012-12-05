@@ -14,9 +14,9 @@ Seimo rinkimų rezultatai.
       + 2004 - DONE
       + 2008 - DONE
       + 2012 - DONE
-   * kandidatu anketos
-      + vienmandates
-      + daugiamandates
+   * kandidatu anketos - DONE
+      + vienmandates _ DONE
+      + daugiamandates - DONE
    * išrinkti Seimo nariai
 
 **Failų aprašymas**
@@ -25,6 +25,7 @@ Seimo rinkimų rezultatai.
    + vienmandate20XX_kandidatorezultaiapygardojeitem.csv - pvz. ["Balsavimo rezultatai apygardoje"][1] 
    + vienmandate20XX_kandidatorezultaiapylinkejeitem.csv - pvz. ["Balsavimo rezultatai rinkimų apylinkėje"][2]
    + kandidatasXXXX_kandidatasitem.csv - aprašymas ["Kandidato biografija"][3]
+   + kandidatas DaugiamantatejeXXXX - kandidatasitem.csv - visi kandidatai 
    + kandidatoDeklaracija2004_kandidatodeklaracija.csv - turto deklaracija - pvz. [gyventojų turto ir pajamų deklaracijos pagrindinių duomenų išrašas][6]
    + daugiamandate20XX_daugiamandatesrezultataiapylinkejeitem - [daugiamandatės rez. apylinkėse][4]
    + daugiamandate20XX_daugiamandatesrezultataiapygardojeitem - [daugiamandatės rez. apygardose][5]
