@@ -9,9 +9,12 @@ import re
 class KandidatasVienmandateSpider(CrawlSpider):
         name = "kandidatas2008"
         allowed_domains = ["www.vrk.lt"]
-	start_urls = ["http://www.vrk.lt/rinkimai/400_lt/Kandidatai/index.html"]
-	rules =[Rule(SgmlLinkExtractor(allow=['/Kandidatai/Kandidatas'],deny=['output_en']), 'parse_kandidatas', follow=False),
-		Rule(SgmlLinkExtractor(allow=['KandidataiApygardos' ]) ,follow=True)
+	start_urls = [
+			#"http://www.vrk.lt/rinkimai/400_lt/KandidatuSarasai/index.html",
+			"http://www.vrk.lt/rinkimai/400_lt/Kandidatai/index.html"]
+	rules =[Rule(SgmlLinkExtractor(allow=['/Kandidatai/Kandidatas',r'Kandidato\d+Anketa.html$'],deny=['output_en']), 'parse_kandidatas', follow=False),
+		Rule(SgmlLinkExtractor(allow=['KandidataiApygardos' ]) ,follow=True),
+		#Rule(SgmlLinkExtractor(allow=['RinkimuOrganizacija' ]) ,follow=True)
 			]
 
 	def parse_kandidatas(self,response):
@@ -19,16 +22,17 @@ class KandidatasVienmandateSpider(CrawlSpider):
 		item = KandidatasItem()
 		if len(hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[0].select('tr/td'))>1:
 			item['kandidatas'] = hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[0].select('tr/td')[1].select('b/text()')[0].extract().encode('UTF8')
+			if len(hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[0].select('tr/td')[1].select('b/a/text()'))>=2:
+				item['iskele'] = hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[0].select('tr/td')[1].select('b/a/text()')[1].extract().encode('UTF8')
+			else:
+				item['iskele'] = hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[0].select('tr/td')[1].select('b/text()')[2].extract().encode('UTF8')
+			if len(hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[0].select('tr/td')[1].select('b/text()'))>3:
+				item['saraso_numeris'] = hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[0].select('tr/td')[1].select('b/text()')[3].extract().encode('UTF8')
+			item['apygarda'] = hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[0].select('tr/td')[1].select('b/a/text()')[0].extract().encode('UTF8')
 		else:
-			hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[0].select('tr/td')[0].select('b/text()')[0].extract().encode('UTF8')
+			 item['kandidatas'] = hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[0].select('tr/td')[0].select('b/text()')[0].extract().encode('UTF8')
+			 item['iskele'] = hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[0].select('tr/td')[0].select('b/a/text()')[0].extract().encode('UTF8')
 
-		if len(hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[0].select('tr/td')[1].select('b/a/text()'))>=2:
-			item['iskele'] = hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[0].select('tr/td')[1].select('b/a/text()')[1].extract().encode('UTF8')
-		else:
-			item['iskele'] = hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[0].select('tr/td')[1].select('b/text()')[2].extract().encode('UTF8')
-		if len(hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[0].select('tr/td')[1].select('b/text()'))>3:
-			item['saraso_numeris'] = hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[0].select('tr/td')[1].select('b/text()')[3].extract().encode('UTF8')
-		item['apygarda'] = hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[0].select('tr/td')[1].select('b/a/text()')[0].extract().encode('UTF8')
 		if len(hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[1].select('tr/td/table'))>0:
 			item['issilavinimas'] = ';'.join(hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[1].select('tr/td/table')[0].select('tr/td/b/text()').extract())
 

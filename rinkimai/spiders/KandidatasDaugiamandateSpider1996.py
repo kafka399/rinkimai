@@ -6,26 +6,58 @@ from scrapy.selector import HtmlXPathSelector
 from rinkimai.items import KandidatasItem
 import re
 
-class KandidatasVienmandateSpider(CrawlSpider):
-        name = "kandidatas2004"
+class KandidatasDaugiamandateSpider(CrawlSpider):
+        name = "kandidatasDaugiamandate1996"
         allowed_domains = ["www3.lrs.lt"]
-	start_urls = ["http://www3.lrs.lt/rinkimai/2004/seimas/kandidatai/vapg_sar_l_20.htm"]
-	rules =[Rule(SgmlLinkExtractor(allow=['kandidatai/kand_anketa_l_']), 'parse_kandidatas', follow=False),
-		Rule(SgmlLinkExtractor(allow=['kandidatai/apg_kand_l_' ]) ,follow=True),
-#		Rule(SgmlLinkExtractor(allow=['kand_part_l_' ]) ,follow=True)
+	start_urls = ["http://www3.lrs.lt/n/rinkimai/seim96/rdl.htm"]
+	rules =[Rule(SgmlLinkExtractor(allow=['kandvl.htm']), 'parse_kandidatas', follow=False),
+		Rule(SgmlLinkExtractor(allow=['rkreitl.htm' ]) ,follow=True),
+
 			]
 
 	def parse_kandidatas(self,response):
 		hxs = HtmlXPathSelector(response)
 		item = KandidatasItem()
-		item['kandidatas'] = hxs.select("//h4")[1].select('text()')[0].extract().encode('UTF8')
-		if len(hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']/table/tr/td")[1].select('b/a/text()'))>1:
-			item['iskele'] = hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']/table/tr/td")[1].select('b/a/text()')[1].extract().encode('UTF8')
-			item['apygarda'] = hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']/table/tr/td/b/a/text()")[1].extract().encode('UTF8')
-		else:
-			item['iskele'] = hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']/table/tr/td")[1].select('b/text()')[1].extract().encode('UTF8')
-			item['apygarda'] = hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']/table/tr/td/b/a/text()")[0].extract().encode('UTF8')
-		
+		item['kandidatas'] = hxs.select("//p/font/b/text()").extract()[0].encode('UTF8')
+		p=hxs.select("//blockquote").extract()
+		for t in p:
+                        t = t.encode('UTF8')
+                        ln =t.find('Apygarda')
+                        if ln > -1:
+                                t=t[ln+len('Apygarda: <b>'):]
+                                if t.find('<a href')==0:
+                                        t = t[t.find('">')+len('">'):]
+                                        item['apygarda'] = t[:t.find('</a>')]
+                                else:
+                                        item['apygarda'] = t[:t.find('</b>')]
+
+		for t in p:
+                        t = t.encode('UTF8')
+                        ln =t.find('Iškėlė')
+                        if ln > -1:
+                                t=t[ln+len('Iškėlė:'):]
+                                # if t.find('<a href')<15:
+                                t = t[t.find('<b>')+len('<b>'):]
+                                item['iskele'] =  t[:t.find('</b>')]
+                                #else:
+                                 #       item['iskele'] = t[:t.find('</b>')]
+
+#		item['apygarda'] = hxs.select("//b/a")[0].select('text()').extract()[0].encode('UTF8')
+		#if len(hxs.select("//b/a"))>2:
+		#	item['iskele'] = hxs.select("//b/a")[1].select('text()').extract()[0].encode('UTF8')
+		#else:
+		#	item['iskele'] = hxs.select("//b")[2].select('text()').extract()[0].encode('UTF8')
+		p_block = hxs.select("//blockquote/p")
+		#p_text =  hxs.select("//blockquote/p/b/text()")
+		for p in p_block:
+			if (p.extract().encode('UTF8').find('Šeimyninė padėtis:'))>0:
+				item['seimynine_padetis'] = p.select('b/text()').extract()[0].encode('UTF')
+			if (p.extract().encode('UTF8').find('Užsienio kalbos:'))>0:
+				item['uzsienio_kalbos']=";".join(p.select('b/text()').extract()).encode('UTF')
+			if (p.extract().encode('UTF8').find('Išsilavinimas:'))>0:
+				item['issilavinimas']= p.select('b/text()').extract()[0].encode('UTF')
+		yield item
+	"""	
 		#if len(hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[1].select('tr/td/table'))>0:
 		#	item['issilavinimas'] = ';'.join(hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[1].select('tr/td/table')[0].select('tr/td/b/text()').extract())
 
@@ -81,15 +113,4 @@ class KandidatasVienmandateSpider(CrawlSpider):
 
 
 		"""
-		f rez.find('13. Kokias užsienio kalbas mokate <b>')>0		if rez.find('16. Pagrindin')>0:
-			rez = rez[rez.find('16. Pagrindin')+len('16. Pagrindin')+28:]
-			item['darboviete'] = rez[0:rez.find('</b>')]
-		if rez.find('18. Pom')>0:
-			rez = rez[rez.find('18. Pom')+len('18. Pom')+10:]
-			item['pomegiai'] = rez[0:rez.find('</b>')]
-		if rez.find('19. Šeiminė padėtis')>0:
-			rez = rez[rez.find('19. Šeiminė padėtis')+len('18. Šeiminė padėtis <b>'):]
-			item['seimynine_padetis'] = rez[0:rez.find('</b>')]
-		"""
-		yield item
 

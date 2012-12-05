@@ -7,13 +7,14 @@ from rinkimai.items import KandidatasItem
 from rinkimai.items import KandidatoDeklaracija 
 import re
 
-class KandidatasSpider(CrawlSpider):
-        name = "kandidatas2000"
+class KandidatasDaugiamandateSpider(CrawlSpider):
+        name = "kandidatasDaugiamandate2000"
         allowed_domains = ["www3.lrs.lt"]
-	start_urls = ["http://www3.lrs.lt/n/rinkimai/20001008/kandapgsarl.htm-13.htm"]
+	start_urls = ["http://www3.lrs.lt/n/rinkimai/20001008/partsarl.htm-13.htm"]
+			#,"http://www3.lrs.lt/n/rinkimai/20001008/kandapgsarl.htm-13.htm"]
 	rules =[Rule(SgmlLinkExtractor(allow=['kandvl.htm']), 'parse_kandidatas', follow=False),
-		Rule(SgmlLinkExtractor(allow=['kandapgl.htm' ]) ,follow=True),
-#		Rule(SgmlLinkExtractor(allow=['kandpartl.htm' ]) ,follow=True)
+		#Rule(SgmlLinkExtractor(allow=['kandapgl.htm' ]) ,follow=True),
+		Rule(SgmlLinkExtractor(allow=['kandpartl.htm' ]) ,follow=True)
 			]
 	
 	def parse_kandidatas(self,response):
@@ -30,10 +31,33 @@ class KandidatasSpider(CrawlSpider):
 		"""
 		item = KandidatasItem()
 		item['kandidatas'] = hxs.select("//p/font/b/text()").extract()[0].encode('UTF8')
-		p=hxs.select("//table/tr[@valign='bottom']/td/p/b/text()").extract()
+		p=hxs.select("//table/tr[@valign='bottom']/td").extract()
 		issikele = False
-		for i in p:
-			if i.encode('UTF8').find('Išsikėlė')>-1:		
+		for t in p:
+                        t = t.encode('UTF8')
+                        ln =t.find('Apygarda')
+                        if ln > -1:
+                                t=t[ln+len('Apygarda: <b>'):]
+                                if t.find('<a href')==0:
+                                        t = t[t.find('">')+len('">'):]
+                                        item['apygarda'] = t[:t.find('</a>')]
+                                else:
+                                        item['apygarda'] = t[:t.find('</b>')]
+
+		for t in p:
+			t = t.encode('UTF8')
+                        ln =t.find('Iškėlė')
+                        if ln > -1:
+                                t=t[ln+len('Iškėlė: <b>'):]
+                                if t.find('<a href')<15:
+                                        t = t[t.find('">')+len('">'):]
+                                        item['iskele'] =  t[:t.find('</a>')]
+                                else:
+                                        item['iskele'] = t[:t.find('</b>')]
+	
+		"""
+			if i.encode('UTF8').find('Iškėlė')>-1:		
+				
 
 				item['apygarda'] = (hxs.select("//table/tr[@valign='bottom']/td/p")).select('b/a/text()')[0].extract().encode('UTF8')
 				item['iskele'] =i.encode('UTF8')				
@@ -52,6 +76,7 @@ class KandidatasSpider(CrawlSpider):
 			else:
 				item['apygarda'] = (hxs.select("//table/tr[@valign='bottom']/td/p")).select('b/a/text()')[0].extract().encode('UTF8')		
 				item['iskele'] = hxs.select("//table/tr/td/p/b/a/text()")[1].extract().encode('UTF8')
+		"""
 		p=(hxs.select("//table/tr[@valign='bottom']/td/p"))
 		for i in p:
 			if i.extract().encode('UTF8').find('Gimimo data:')>-1:

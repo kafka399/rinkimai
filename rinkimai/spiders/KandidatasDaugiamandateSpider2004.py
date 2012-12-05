@@ -6,26 +6,51 @@ from scrapy.selector import HtmlXPathSelector
 from rinkimai.items import KandidatasItem
 import re
 
-class KandidatasVienmandateSpider(CrawlSpider):
-        name = "kandidatas2004"
+class KandidatasDaugiamandateSpider(CrawlSpider):
+        name = "kandidatasDaugiamandate2004"
         allowed_domains = ["www3.lrs.lt"]
-	start_urls = ["http://www3.lrs.lt/rinkimai/2004/seimas/kandidatai/vapg_sar_l_20.htm"]
+	start_urls = ["http://www3.lrs.lt/rinkimai/2004/seimas/kandidatai/part_sar_l_20.htm"]
+
 	rules =[Rule(SgmlLinkExtractor(allow=['kandidatai/kand_anketa_l_']), 'parse_kandidatas', follow=False),
-		Rule(SgmlLinkExtractor(allow=['kandidatai/apg_kand_l_' ]) ,follow=True),
-#		Rule(SgmlLinkExtractor(allow=['kand_part_l_' ]) ,follow=True)
+		Rule(SgmlLinkExtractor(allow=['kand_part_l_' ]) ,follow=True)
 			]
 
 	def parse_kandidatas(self,response):
+		
 		hxs = HtmlXPathSelector(response)
 		item = KandidatasItem()
 		item['kandidatas'] = hxs.select("//h4")[1].select('text()')[0].extract().encode('UTF8')
+		td= hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']/table/tr/td").extract()
+		for t in td:
+			t = t.encode('UTF8')
+			ln =t.find('Apygarda')
+			if ln > -1:
+			        t=t[ln+len('Apygarda: <b>'):]
+				if t.find('<a href')==0:
+                                        t = t[t.find('.htm">')+len('.htm">'):]
+					item['apygarda'] = t[:t.find('</a>')]
+				else:
+					item['apygarda'] = t[:t.find('</b>')]
+		
+		for t in td:
+			t = t.encode('UTF8')
+			ln =t.find('Iškėlė')
+			if ln > -1:
+        	                t=t[ln+len('Iškėlė: <b>'):]
+				if t.find('<a href')<15:
+	                                t = t[t.find('.htm">')+len('.htm">'):]
+        	                        item['iskele'] =  t[:t.find('</a>')]
+				else:
+                	        	item['iskele'] = t[:t.find('</b>')]
+
+		"""
 		if len(hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']/table/tr/td")[1].select('b/a/text()'))>1:
 			item['iskele'] = hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']/table/tr/td")[1].select('b/a/text()')[1].extract().encode('UTF8')
 			item['apygarda'] = hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']/table/tr/td/b/a/text()")[1].extract().encode('UTF8')
 		else:
 			item['iskele'] = hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']/table/tr/td")[1].select('b/text()')[1].extract().encode('UTF8')
 			item['apygarda'] = hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']/table/tr/td/b/a/text()")[0].extract().encode('UTF8')
-		
+		"""
 		#if len(hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[1].select('tr/td/table'))>0:
 		#	item['issilavinimas'] = ';'.join(hxs.select("//div[@class='candidateInfo']/table[@class='partydata']")[1].select('tr/td/table')[0].select('tr/td/b/text()').extract())
 
@@ -67,7 +92,7 @@ class KandidatasVienmandateSpider(CrawlSpider):
 		i+=1
 
 		if len(hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('b/text()'))>0:
-			item['uzsienio_kalbos']=hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('b/text()').extract()[0].encode('UTF8')
+			item['uzsienio_kalbos']=";".join(hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('b/text()').extract()).encode('UTF8')
 		i+=3
 
 		if len(hxs.select("//td[@class='bigcell']/table/tr/td[@class='lt']")[i].select('b/text()'))>0:

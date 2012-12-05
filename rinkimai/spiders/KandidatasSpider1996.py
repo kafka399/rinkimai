@@ -23,7 +23,7 @@ class KandidatasSpider(CrawlSpider):
 		if len(hxs.select("//b/a"))>2:
 			item['iskele'] = hxs.select("//b/a")[1].select('text()').extract()[0].encode('UTF8')
 		else:
-			hxs.select("//b")[2].select('text()').extract()[0].encode('UTF8')
+			item['iskele'] = hxs.select("//b")[2].select('text()').extract()[0].encode('UTF8')
 		p_block = hxs.select("//blockquote/p")
 		#p_text =  hxs.select("//blockquote/p/b/text()")
 		for p in p_block:
