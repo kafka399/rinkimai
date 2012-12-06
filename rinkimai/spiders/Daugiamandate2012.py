@@ -10,6 +10,7 @@ class DaugiamandateSpider(CrawlSpider):
         allowed_domains = ["www.vrk.lt"]
 	start_urls = ["http://www.vrk.lt/2012_seimo_rinkimai/output_lt/rezultatai_daugiamand_apygardose/rezultatai_daugiamand_apygardose1turas.html"]
 	rules =[Rule(SgmlLinkExtractor(allow=['output_lt/rezultatai_daugiamand_apygardose/apylinkes'],deny=['output_en']), 'parse_apylinke', follow=False),
+		Rule(SgmlLinkExtractor(allow=['rezultatai_daugiamand_apygardose/balsavimasatstovybese'],deny=['output_en']), 'parse_apylinke', follow=True),
 		Rule(SgmlLinkExtractor(allow=['rezultatai_daugiamand_apygardose/apygardos_rezultatai'],deny=['output_en']), 'parse_apygarda', follow=True)
 
 			]
@@ -43,7 +44,10 @@ class DaugiamandateSpider(CrawlSpider):
 			item['apylinke'] = apylinke
 
 			if len(part.select('td/text()').extract())>0  and len(part.select('td[@colspan="3"]'))==0:
-				item['partija'] = (part.select('td')[1].select('text()')[0].extract()).encode('UTF8')
+				if len(part.select('td')[1].select('text()'))>0:
+                                        item['partija'] = (part.select('td')[1].select('text()')[0].extract()).encode('UTF8')
+                                else:
+                                        item['partija'] = (part.select('td')[1].select('a/text()')[0].extract()).encode('UTF8')
 				item['apylinkese'] =  (part.select('td')[3].select('text()')[0].extract()).encode('UTF8')
 				item['pastu'] = (part.select('td')[4].select('text()')[0].extract()).encode('UTF8')
 				item['nuo_galiojanciu_biuleteniu'] = (part.select('td')[6].select('text()')[0].extract()).encode('UTF8')

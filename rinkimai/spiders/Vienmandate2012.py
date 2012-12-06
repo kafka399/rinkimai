@@ -11,8 +11,8 @@ class ApylinkeSpider(CrawlSpider):
         allowed_domains = ["www.vrk.lt"]
 	start_urls = ["http://www.vrk.lt/2012_seimo_rinkimai/output_lt/rezultatai_vienmand_apygardose/rezultatai_vienmand_apygardose1turas.html"]
 	rules =[Rule(SgmlLinkExtractor(allow=['/rezultatai_vienmanate_apygarda'],deny=['output_en']), 'parse_apygarda', follow=True),
-		Rule(SgmlLinkExtractor(allow=['/rezultatai_vienmand_apygardose/rezultatai_apylinke'],deny=['output_en']), 'parse_apygarda_rez', follow=False)
-
+		Rule(SgmlLinkExtractor(allow=['/rezultatai_vienmand_apygardose/rezultatai_apylinke'],deny=['output_en']), 'parse_apygarda_rez', follow=False),
+		Rule(SgmlLinkExtractor(allow=['rezultatai_vienmand_apygardose/atstovybesaktyvumasdesc'],deny=['output_en']), 'parse_apygarda_rez', follow=True)
 			]
 
         def parse_apygarda(self,response):
@@ -45,7 +45,10 @@ class ApylinkeSpider(CrawlSpider):
 
 	def parse_apygarda_rez(self,response):
 		hxs = HtmlXPathSelector(response)
-		apylinke = hxs.select('//h2')[0].select('text()').extract()[0].encode('UTF8')
+		if len(hxs.select('//h2')[0].select('text()')):
+			apylinke = hxs.select('//h2')[0].select('text()').extract()[0].encode('UTF8')
+		else:
+			apylinke = hxs.select('//h2/a')[0].select('text()').extract()[0].encode('UTF8')			
 		kandidatai = hxs.select('//table[@class="partydata"]')[1].select('tr')
 		for kan in kandidatai:
 			item = KandidatoRezultaiApylinkejeItem()
