@@ -56,12 +56,14 @@ class KandidatasSpider(CrawlSpider):
 		item['gimimo_data'] = rez[rez.rfind('Gimimo data <b>')+len('Gimimo data <b>'):rez.find('Gimimo data <b>')+10+len('Gimimo data <b>')]
 		rez = rez[rez.rfind('gyvenamosios vietos adresas <b>')+len('gyvenamosios vietos adresas <b>'):]
 		item['gyvena'] = rez[0:rez.find('</b>')]
-		rez=rez[rez.find('8.1 Ar turite nebaigtą atlikti teismo nuosprendžiu paskirtą bausmę?')+len('8.1 Ar turite nebaigtą atlikti teismo nuosprendžiu paskirtą bausmę?  <b>')+14:]
-		item['neatlikta_bausme'] = rez[:7]
-		rez=rez[rez.find('9.2 Ar buvote po 1990 m. kovo 11 d. Lietuvos Respublikos teismo įsiteisėjusiu nuosprendžiu pripažintas kaltu dėl nusikalstamos veikos?')+len('9.2 Ar buvote po 1990 m. kovo 11 d. Lietuvos Respublikos teismo įsiteisėjusiu nuosprendžiu pripažintas kaltu dėl nusikalstamos veikos?')+13:]
-		item['pripazintas_kaltu'] = rez[:2]
-		rez=rez[rez.find('9.3 Ar buvote įsiteisėjusiu teismo nuosprendžiu bet kada pripažintas kaltu padaręs sunkų ar labai sunkų nusikaltimą?')+len('9.3 Ar buvote įsiteisėjusiu teismo nuosprendžiu bet kada pripažintas kaltu padaręs sunkų ar labai sunkų nusikaltimą?')+13:]
-		item['sunkus_nusikaltimas'] = rez[:2] 
+
+		rez=rez[rez.find('8.1 Ar turite nebaigtą atlikti teismo nuosprendžiu paskirtą bausmę?'):]
+                item['neatlikta_bausme'] = rez[rez.find('<b>')+3:rez.find('</b>')]
+                rez=rez[rez.find('9.2 Ar buvote po 1990 m. kovo 11 d. Lietuvos Respublikos teismo įsiteisėjusiu nuosprendžiu pripažintas kaltu dėl nusikalstamos veikos?'):]
+
+                item['pripazintas_kaltu'] = rez[rez.find('<b>')+3:rez.find('</b>')]
+                rez=rez[rez.find('9.3 Ar buvote įsiteisėjusiu teismo nuosprendžiu bet kada pripažintas kaltu padaręs sunkų ar labai sunkų nusikaltimą?'):]
+                item['sunkus_nusikaltimas'] = rez[rez.find('<b>')+3:rez.find('</b>')]
 
 		rez = rez[rez.find('Gimimo vieta <b>')+len('Gimimo vieta <b>'):]
 		item['gimimo_vieta'] = rez[0:rez.find('</b>')]
