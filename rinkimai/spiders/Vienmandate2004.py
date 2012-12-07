@@ -10,12 +10,10 @@ class VienmandateSpider(CrawlSpider):
         name = "vienmandate2004"
         allowed_domains = ["www3.lrs.lt"]
 	start_urls = ["http://www3.lrs.lt/rinkimai/2004/seimas/rezultatai/rezv_l_20_1.htm"]
-	rules =[Rule(SgmlLinkExtractor(allow=['rezultatai/rezv_apg'],deny=['_apg_e_']),
-# 'parse_apygarda', 
-		follow=True),
+	rules =[Rule(SgmlLinkExtractor(allow=['rezultatai/rezv_apg'],deny=['_apg_e_']), 'parse_apygarda',follow=True),
 		Rule(SgmlLinkExtractor(allow=['rezv_apl_l'],deny=['_apg_e_']), 'parse_apylinke', follow=False),
 		Rule(SgmlLinkExtractor(allow=['rezultatai/rezv_uzs_l_'],deny=['_apg_e_']),
-# 'parse_apygarda', 
+ 'parse_uzsienio_apylinke', 
 		follow=True),
 		Rule(SgmlLinkExtractor(allow=['rezultatai/rezv_amb_l_'],deny=['_apg_e_']), 'parse_uzsienio_apylinke', follow=False)
 			]
