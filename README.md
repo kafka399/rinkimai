@@ -41,6 +41,7 @@ Seimo rinkimų rezultatai.
 **Pastabos**
 
    + 2000 m. antro turo nebuvo.
+   + Apibendrinti atstovybių ir kiekvienos atstovybės rezultai saugomi kaip apylinkės - duomenis dubliuojasi
 
 
 **Žinomos klaidos**
