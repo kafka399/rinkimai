@@ -10,7 +10,9 @@ class Daugiamandate2004Spider(CrawlSpider):
         allowed_domains = ["www3.lrs.lt"]
 	start_urls = ["http://www3.lrs.lt/rinkimai/2004/seimas/rezultatai/rez_l_20.htm"]
 	rules =[Rule(SgmlLinkExtractor(allow=['rezultatai/rez_apl_l_'],deny=['rez_apg_e_']), 'parse_apylinke', follow=False),
-		Rule(SgmlLinkExtractor(allow=['rezultatai/rez_apg_l_'],deny=['rez_apg_e_']), 'parse_apygarda', follow=True)
+		Rule(SgmlLinkExtractor(allow=['rezultatai/rez_apg_l_'],deny=['rez_apg_e_']), 'parse_apygarda', follow=True),
+		Rule(SgmlLinkExtractor(allow=['rezultatai/rez_uzs_l_'],deny=['rez_apg_e_']), 'parse_apylinke', follow=True),
+		Rule(SgmlLinkExtractor(allow=['rezultatai/rez_amb_l_'],deny=['rez_apg_e_']), 'parse_apylinke', follow=True),
 
 			]
 
@@ -43,9 +45,17 @@ class Daugiamandate2004Spider(CrawlSpider):
 			item['apygarda'] = apygarda
 			item['apylinke'] = apylinke
 			if len(part.select('td/text()').extract())>0:
-				item['partija'] = (part.select('td/table/tr/td/text()').extract())[0].encode('UTF8')
-				item['apylinkese'] = (part.select('td/text()').extract()[1]).encode('UTF8')
-				item['pastu'] = (part.select('td/text()').extract()[2]).encode('UTF8')
-				item['nuo_galiojanciu_biuleteniu'] = (part.select('td/text()').extract()[4]).encode('UTF8')
+				if len(part.select('td/table/tr/td/text()'))>0:
+					item['partija'] = (part.select('td/table/tr/td/text()').extract())[0].encode('UTF8')
+					item['apylinkese'] = (part.select('td/text()').extract()[1]).encode('UTF8')
+					item['pastu'] = (part.select('td/text()').extract()[2]).encode('UTF8')
+					item['nuo_galiojanciu_biuleteniu'] = (part.select('td/text()').extract()[4]).encode('UTF8')
+
+				else:
+					item['partija'] = part.select('td/text()')[1].extract().encode('UTF')
+					item['apylinkese'] = (part.select('td/text()').extract()[2]).encode('UTF8')
+					item['pastu'] = (part.select('td/text()').extract()[3]).encode('UTF8')
+					item['nuo_galiojanciu_biuleteniu'] = (part.select('td/text()').extract()[5]).encode('UTF8')
+
 				yield item
 	

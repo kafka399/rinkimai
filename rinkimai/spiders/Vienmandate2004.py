@@ -10,9 +10,13 @@ class VienmandateSpider(CrawlSpider):
         name = "vienmandate2004"
         allowed_domains = ["www3.lrs.lt"]
 	start_urls = ["http://www3.lrs.lt/rinkimai/2004/seimas/rezultatai/rezv_l_20_1.htm"]
-	rules =[Rule(SgmlLinkExtractor(allow=['rezultatai/rezv_apg'],deny=['_apg_e_']), 'parse_apygarda', follow=True),
-		Rule(SgmlLinkExtractor(allow=['/rezultatai_vienmand_apygardose/rezultatai_apylinke'],deny=['_apg_e_']), 'parse_apygarda_rez', follow=False),
-		Rule(SgmlLinkExtractor(allow=['rezultatai/rezv_uzs_l_'],deny=['_apg_e_']), 'parse_apygarda', follow=True),
+	rules =[Rule(SgmlLinkExtractor(allow=['rezultatai/rezv_apg'],deny=['_apg_e_']),
+# 'parse_apygarda', 
+		follow=True),
+		Rule(SgmlLinkExtractor(allow=['rezv_apl_l'],deny=['_apg_e_']), 'parse_apylinke', follow=False),
+		Rule(SgmlLinkExtractor(allow=['rezultatai/rezv_uzs_l_'],deny=['_apg_e_']),
+# 'parse_apygarda', 
+		follow=True),
 		Rule(SgmlLinkExtractor(allow=['rezultatai/rezv_amb_l_'],deny=['_apg_e_']), 'parse_uzsienio_apylinke', follow=False)
 			]
 
@@ -65,18 +69,24 @@ class VienmandateSpider(CrawlSpider):
                                 item['nuo_galiojanciu_biuleteniu'] = (kan.select('td/text()').extract()[4]).encode('UTF8')
                                 item['nuo_rinkeju'] = (kan.select('td/text()').extract()[5]).encode('UTF8')
                                 yield item	
+		
 
-	def parse_apygarda_rez(self,response):
-		hxs = HtmlXPathSelector(response)
-		apylinke = hxs.select('//h2')[0].select('text()').extract()[0].encode('UTF8')
-		kandidatai = hxs.select('//table[@class="partydata"]')[1].select('tr')
-		for kan in kandidatai:
-			item = KandidatoRezultaiApylinkejeItem()
-			item['apylinke'] = apylinke
-			if len(kan.select('td/a/text()').extract())>0:
-				item['kandidatas'] = (kan.select('td/a/text()').extract())[0].encode('UTF8')
-				item['balsadezeje'] =  (kan.select('td/text()').extract()[0]).encode('UTF8')
-				item['pastu'] = (kan.select('td/text()').extract()[1]).encode('UTF8')
-				item['nuo_galiojanciu_biuleteniu'] = (kan.select('td/text()').extract()[3]).encode('UTF8')
-				item['nuo_rinkeju'] = (kan.select('td/text()').extract()[4]).encode('UTF8')
-				yield item
+
+		def parse_apylinke(self,response):
+			hxs = HtmlXPathSelector(response)
+			apygarda = hxs.select('//h5/a/text()')[1].extract()
+			apylinke = hxs.select('//h4/text()')[0].extract()
+
+			kandidatai = hxs.select('//div/table[@class="basic"]').select('tr')
+			for kan in kandidatai:
+				item = KandidatoRezultaiApylinkejeItem()
+				item['apylinke'] = apylinke
+				item['apygarda'] = apygarda
+				if len(kan.select('td/text()').extract())>0:
+					item['kandidatas'] = (kan.select('td/table/tr/td/text()').extract())[0].encode('UTF8') 
+					item['balsadezeje'] = (kan.select('td/text()').extract()[1]).encode('UTF8')
+					item['pastu'] = (kan.select('td/text()').extract()[2]).encode('UTF8')
+					item['nuo_galiojanciu_biuleteniu'] = (kan.select('td/text()').extract()[4]).encode('UTF8')
+				#	item['nuo_rinkeju'] = (kan.select('td/text()').extract()[5]).encode('UTF8')
+					yield item	
+
